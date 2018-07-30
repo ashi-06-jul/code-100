@@ -61,18 +61,18 @@ div.desc {
                 <h2><strong>S</strong>eminar</h2>
                 <div class="pad_bot1">
                   <div class="gallery">
-                  <figure><img src="images/seminar.jpg" alt="Trolltunga Norway" width="300" height="225"></figure>
+                  <figure><img src="images/seminarimage.jpg" alt="Trolltunga Norway" width="300" height="225"></figure>
                 </div>
                 </div>
-                A seminar is a form of academic instruction, either at an academic institution or offered by a commercial. <a href="/seminar" class="button1">Read More</a> </section>
+                The conference in Mahabalipuram was so enthralling that putting the rich experiences gained, <a href="/seminar" class="button1">Read More</a> </section>
               <section class="col1 pad_left1">
                 <h2 class="color2"><strong>A</strong>ccolades</h2>
                 <div class="pad_bot1">
                     <div class="gallery">
-                  <figure><img src="images/accolades.jpg" alt="Trolltunga Norway" width="300" height="225"></figure>
+                  <figure><img src="images/accolades_images.jpg" alt="Trolltunga Norway" width="300" height="225"></figure>
                 </div>
                 </div>
-                Common topics for news reports include war, government, politics, education etc.<a href="/accolades" class="button1 color2">Read More</a> </section>
+                Cleft India Parent Association (CIPA) was conferred with CPF Leadership Award for the year 2016 <a href="/accolades" class="button1 color2">Read More</a> </section>
               <section class="col1 pad_left1">
                 <h2 class="color3"><strong>V</strong>ideos</h2>
                 <div class="pad_bot1">
@@ -80,29 +80,30 @@ div.desc {
                   <figure><img src="images/video.jpg" alt="Trolltunga Norway" width="300" height="225"></figure>
                 </div>
                 </div>
-                Video systems vary in display resolution, aspect ratio, refresh rate, color capabilities and other qualities. <a href="/videos" class="button1 color3">Read More</a> </section>
+                Video is an electronic medium for the recording, copying, playback, broadcasting, and display of 
+                <a href="/videos" class="button1 color3">Read More</a> </section><br>
                 <section class="col1">
                 <h2><strong>C</strong>ampaigns</h2>
                 <div class="pad_bot1">
                   <div class="gallery">
-                  <figure><img src="images/campaigns.png" alt="Trolltunga Norway" width="300" height="225"></figure>
+                  <figure><img src="images/Campaigns_banner_0.jpg" alt="Trolltunga Norway" width="300" height="225"></figure>
                 </div>
-                The protests were part of their campaign against the proposed building development in the area.
+                CIPA’s 1st camp was conducted at a low lying locality
                  <a href="/campaigns" class="button1">Read More</a> </section>
               <section class="col1 pad_left1">
-                <h2 class="color2"><strong>R</strong>ecent Events</h2>
+                <h2 class="color2"><strong>E</strong>vents</h2>
                 <div class="pad_bot1">
                   <div class="gallery">
-                  <figure><img src="images/recent_events.png" alt="Trolltunga Norway" width="300" height="225"></figure>
+                  <figure><img src="images/Business-Events-620x330.jpg" alt="Trolltunga Norway" width="300" height="225"></figure>
                 </div>
-                At least 257 people are killed as an Algerian Air Force Ilyushin Il-76 aircraft crashes in Algeria.<a href="/recentevents" class="button1 color2">Read More</a> </section>
+                Forthcoming Event: Mount Abu Programme<a href="/recentevents" class="button1 color2">Read More</a> </section>
               <section class="col1 pad_left1">
                 <h2 class="color3"><strong>P</strong>hoto Gallery</h2>
                 <div class="pad_bot1">
                  <div class="gallery">
-                  <figure><img src="images/pg.jpg" alt="Trolltunga Norway" width="300" height="225"></figure>
+                  <figure><img src="images/photogallery.png" alt="Trolltunga Norway" width="300" height="225"></figure>
                 </div>
-                Windows Photo Gallery provides management, tagging, and searching capabilities for digital photos.<a href="/gallery" class="button1 color3">Read More</a> </section>
+                Combined photo gallary of the events of CIPA.  <a href="/gallery" class="button1 color3">Read More</a> </section>
             </div>
           </div>
         </div>

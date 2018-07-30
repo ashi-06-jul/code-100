@@ -31,10 +31,25 @@
       <button class="accordion" style=" color: #575652; font-size: 17px;"><span><span><b>What is cleft lip and palate?</b></span></span></button>
 <div class="panel" style="background-color:#d6d5d5; color: black;">
       
-            <p >Approximately 1 out of every 600 babies are born with a cleft (opening) in the upper lip or palate (roof of the mouth). Normally, as a baby is developing, the tissues that form the upper lip and palate grow together and eventually fuse. For babies with a cleft lip and/or cleft palate, this fusion did not occur properly. Clefts of the upper lip and/or palate may be unilateral (only one side of the mouth affected) or bilateral (both sides affected). A cleft palate can involve the hard palate (the bony front portion of the roof of the mouth), and/or the soft palate (the soft back portion of the roof of the mouth).  In addition, a baby may have a cleft lip, a cleft palate, or both. </p>
-<p>Compared with girls, twice as many boys have a cleft lip, both with and without a cleft palate. </p>
-<p>However, compared with boys, twice as many girls have cleft palate without a cleft lip.</p>
-<p>India, undoubtedly, has a very large cleft population, which at over a million is well above the entire population of some countries! Every passing year adds another 32,000- 35,000 to the figure.</p><p><img src="images/cleft-lip.gif" border="0" alt="" height="300px" width="300px" style="  border-radius: 8px;" /></p>  </div>
+           <p >A cleft is a split or gap in a structure.  A split upper lip is called a Cleft Lip, while the term 
+           Cleft Palate is used when the gap involves the roof of the mouth.  The deformity has variable degree of
+            severity.  In its mildest form, there is only a slight notching of the upper lip.  The most severe form 
+            involves a cleft of the lip, the palate as well as the intervening alveolus (the bony ridge from which the 
+            teeth erupt).  This is known as a Complete Cleft Lip and Palate.  The deformity may affect only one side 
+            (a Unilateral Cleft), or both sides may be involved (a Bilateral Cleft).</p><p>
+	Whatever the deformity, surgical procedures are available to repair the gap.  This must be undertaken by a trained 
+  Plastic Surgeon.  He will work closely with an Orthodontist (Specialist Dentist) and speech language pathologist.  
+  If your child has only a Cleft Lip, one operation will suffice to correct it.  He or she will look and speak normally
+   and the scar will scarcely be visible in later years.  Similarly when only cleft palate is present, single operation
+    will suffice to close the defect in the roof of the mouth.</p><p>
+
+	If your child has Cleft Lip and Palate, two operations will be needed during infancy before the gap is completely
+   closed.  You must expect that with more severe deformity, your child may speak differently from normal children 
+   and will therefore require speech therapy.  In addition, regular visits to the Orthodontist will be necessary.</p>
+   
+	
+<p><img src="images/cleft-lip.gif" border="0" alt="" height="300px" width="300px" style="  border-radius: 8px;" /></p>  </div>
+      
        <button class="accordion" style=" color: #575652; font-size: 17px;"><span><span><b>What Causes a Cleft Lip and Cleft Palate?</b></span></span></button>
 <div class="panel" style="background-color:#d6d5d5; color: black;">
       

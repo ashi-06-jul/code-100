@@ -39,16 +39,11 @@
                 <h2><strong>D</strong>r. Karoon Agrawal</h2>
                 <div class="pad_bot1">
                   <figure><img src="images/karoon photo.jpg" alt="" alt="" align="left" height="240" width="200" style="padding-right:  15px"><b>
-Dr. Karoon Agrawal is Director Professor of Department of Burns, Plastic & Max-fac. Surg
-at VMMC & Safdarjung Hospital in New Delhi 110029, INDIA. He has done MCh (Plastic Surgery)
-WHO Fellow in craniofacial surgery. He is Chairman of Institute Ethical Committee, Institute of Pathology, ICMR and Member of Ethical Committee, VMMC & Safdarjung Hospital.
-He has got National Teacher Award, Awarded by Radhakrishnan Teacher organization in 2015,
-Phoolan devi Life time achievement award of National Academy of Burns-India, Ethicon visiting professorship of Association of Plastic Surgeons of India, Received ‘Leadership Award’ of American Cleft Palate Association on behalf of Cleft India Parent Association.
-He is the Member of Medical Advisory Board of Global Smile Train, New York
-•	Member of Medical Advisory Board of Smile Train, India
-•	Patron of award winning NGO of parents of cleft children - Cleft India Parent Association (CIPA), 
-•	Organised CMEs and Workshops regularly
-•	Invited Faculty at CME on Total care of Cleft at NYU in May 2018. Delivered 5 lectures.
+                  Dr. Karoon Agrawal is Director Professor in Department of Burns, Plastic & Maxillofacial Surgery at VMMC & Safdarjung Hospital, New Delhi, INDIA. He has done MCh (Plastic Surgery) from PGI Chandigarh and WHO Fellow in craniofacial surgery at Craniofacial Centre, Southfield, Michigan, USA in 1993 under Dr. Ian T Jackson. Dr Agrawal worked for over 23 years at JIPMER and developed affinity for Cleft surgery there. He organised many conferences, workshops and scientific meetings in the field of cleft and craniofacial anomalies at JIPMER and also published many research articles in national and international journals of repute. 
+He shifted to Safdarjung Hospital, New Delhi in 2010 as director Professor. He was bestowed with National Teacher Award, by Radhakrishnan Teacher organization in 2015, Phoolan devi Life time achievement award of National Academy of Burns-India, Ethicon visiting professorship of Association of Plastic Surgeons of India, Received ‘Leadership Award’ of American Cleft Palate Association on behalf of Cleft India Parent Association. Dr Agrawal was the President of Association of Plastic Surgeons of India in 2016 and President of National Academy of Burns-India in 2010. 
+He has been nominated as the Member of Medical Advisory Board of Global Smile Train, New York • Member of Medical Advisory Board of Smile Train, India • Patron of award winning NGO of parents of cleft children - Cleft India Parent Association (CIPA) • Chairman of Institute Ethical Committee, Institute of Pathology, ICMR and Member of Ethical Committee, VMMC & Safdarjung Hospital. Dr Agrawal was recently invited as Faculty at CME on ‘Total care of Cleft’ at New York University in May 2018. 
+He is devout teacher and the founder Editor in chief of Journal of Cleft Lip Palate & Craniofacial Anomalies publisher by Wolters Kluwer Medknow. Now he is compiling multivolume Text Book of Plastic, Reconstructive and Aesthetic Surgery published by Thieme Medical Publisher. He has published over 130 articles, editorials and chapters in medical publications. 
+
 
 
 
