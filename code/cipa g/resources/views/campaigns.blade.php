@@ -75,32 +75,32 @@ div.desc {
               
                <div class="gallery">
     <a target="_blank">
-    <img src="images/camp1.jpg" alt="Trolltunga Norway" width="300" height="225">
+    <img src="images/camp4.jpg" alt="Trolltunga Norway" width="300" height="250">
   </a>
   
 </div>
 
 <div class="gallery">
   <a target="_blank">
-    <img src="images/camp2.jpg" alt="Forest" width="300" height="225">
+    <img src="images/camp2.jpg" alt="Forest" width="300" height="250">
   </a>
   
 </div>
 
 <div class="gallery">
   <a target="_blank">
-    <img src="images/camp3.jpg" alt="Northern Lights" width="300" height="225">
+    <img src="images/camp3.jpg" alt="Northern Lights" width="300" height="250">
   </a>
   
 </div>
 
 <div class="gallery">
   <a target="_blank">
-    <img src="images/camp4.jpg" alt="Mountains" width="300" height="225">
+    <img src="images/camp1.jpg" alt="Mountains" width="300" height="250">
   </a>
   
 </div>
-<h2 class="color2"><strong>2.</strong><span> CIPA’s 2nd Camp On ? </span>At Dilshad Garden:</h2>
+<h2 class="color2"><strong>2.</strong><span> CIPA’s 2nd Camp On 24 March 2006 </span>At Dilshad Garden:</h2>
 <h5><p class="pad_bot1" style="">CIPA’s 2nd camp was conducted at a low called Muslim dominated locality called Husaini Imam Bara at Dilshad Garden, East Delhi.</p>
 
 <p class="pad_bot1" style="">The camp started with welcome notes by Dr. Karoon and Dr. Puneet. Then all CIPA parents represented the journey and boosted the morale of the patients / parents. The 2nd camp had different challenges as it’s difficult to change the mindsets, owing to faiths and beliefs. CIPA presented souvenirs to locals and Dr. Puneet also had a separate area demarcated for basic dental hygiene and distributed dental kits.</p>
@@ -108,28 +108,28 @@ div.desc {
 <p class="pad_bot1" style="">Still CIPA was able to bring the change through the representatives, who assured that they will come up positively. Once again, CIPA made new connections.</p></h5>
 <div class="gallery">
     <a target="_blank">
-    <img src="images/camp5.jpg" alt="Trolltunga Norway" width="300" height="225">
+    <img src="images/camp5.jpg" alt="Trolltunga Norway" width="300" height="250">
   </a>
   
 </div>
 
 <div class="gallery">
   <a target="_blank">
-    <img src="images/camp6.jpg" alt="Forest" width="300" height="225">
+    <img src="images/camp6.jpg" alt="Forest" width="300" height="250">
   </a>
   
 </div>
 
 <div class="gallery">
   <a target="_blank">
-    <img src="images/camp7.jpg" alt="Northern Lights" width="300" height="225">
+    <img src="images/camp7.jpg" alt="Northern Lights" width="300" height="250">
   </a>
   
 </div>
 
 <div class="gallery">
   <a target="_blank">
-    <img src="images/camp8.jpg" alt="Mountains" width="300" height="225">
+    <img src="images/camp8.jpg" alt="Mountains" width="300" height="250">
   </a>
   
 </div>
@@ -141,68 +141,68 @@ div.desc {
 <p class="pad_bot1" style="">CIPA was also able to tap another NGO called Seva Sehyog Foundation, who extended great support in organising the camp.</p></h5>
 <div class="gallery">
     <a target="_blank">
-    <img src="images/camp9.jpg" alt="Trolltunga Norway" width="300" height="225">
+    <img src="images/camp9.jpg" alt="Trolltunga Norway" width="300" height="250">
   </a>
   
 </div>
 
 <div class="gallery">
   <a target="_blank">
-    <img src="images/camp10.jpg" alt="Forest" width="300" height="225">
+    <img src="images/camp10.jpg" alt="Forest" width="300" height="250">
   </a>
   
 </div>
 
 <div class="gallery">
   <a target="_blank">
-    <img src="images/camp11.jpg" alt="Northern Lights" width="300" height="225">
+    <img src="images/camp11.jpg" alt="Northern Lights" width="300" height="250">
   </a>
   
 </div>
 
 <div class="gallery">
   <a target="_blank">
-    <img src="images/camp12.jpg" alt="Mountains" width="300" height="225">
+    <img src="images/camp12.jpg" alt="Mountains" width="300" height="250">
   </a>
   
 </div>
 <div class="gallery">
     <a target="_blank">
-    <img src="images/camp13.jpg" alt="Trolltunga Norway" width="300" height="225">
+    <img src="images/camp13.jpg" alt="Trolltunga Norway" width="300" height="250">
   </a>
   
 </div>
 
 <div class="gallery">
   <a target="_blank">
-    <img src="images/camp14.jpg" alt="Forest" width="300" height="225">
+    <img src="images/camp14.jpg" alt="Forest" width="300" height="250">
   </a>
   
 </div>
 
 <div class="gallery">
   <a target="_blank">
-    <img src="images/camp15.jpg" alt="Northern Lights" width="300" height="225">
+    <img src="images/camp15.jpg" alt="Northern Lights" width="300" height="250">
   </a>
   
 </div>
 
 <div class="gallery">
   <a target="_blank">
-    <img src="images/camp16.jpg" alt="Mountains" width="300" height="225">
+    <img src="images/camp16.jpg" alt="Mountains" width="300" height="250">
   </a>
   
 </div>
 <div class="gallery">
   <a target="_blank">
-    <img src="images/camp17.jpg" alt="Northern Lights" width="300" height="225">
+    <img src="images/camp17.jpg" alt="Northern Lights" width="300" height="250">
   </a>
   
 </div>
 
 <div class="gallery">
   <a target="_blank">
-    <img src="images/camp18.jpg" alt="Mountains" width="300" height="225">
+    <img src="images/camp18.jpg" alt="Mountains" width="300" height="250">
   </a>
   
 </div>

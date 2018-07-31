@@ -122,9 +122,9 @@ div.desc {
     
     <!-- / content -->
     <!-- footer -->
-    <footer>
+   
 @include('layout.footer')
-    </footer>
+  
     <!-- / footer -->
   </div>
 </div>

@@ -56,7 +56,7 @@ div.desc {
       <div class="wrapper">
         <div class="box1">
           
-            <div class="line2 wrapper">
+            <div class="line wrapper">
               <section class="col1">
                 <h2><strong>S</strong>eminar</h2>
                 <div class="pad_bot1">
@@ -69,7 +69,7 @@ div.desc {
                 <h2 class="color2"><strong>A</strong>ccolades</h2>
                 <div class="pad_bot1">
                     <div class="gallery">
-                  <figure><img src="images/accolades_images.jpg" alt="Trolltunga Norway" width="300" height="225"></figure>
+                  <figure><img src="images/acc.jpg" alt="Trolltunga Norway" width="300" height="225"></figure>
                 </div>
                 </div>
                 Cleft India Parent Association (CIPA) was conferred with CPF Leadership Award for the year 2016 <a href="/accolades" class="button1 color2">Read More</a> </section>
@@ -109,19 +109,12 @@ div.desc {
         </div>
       
       
-      <div class="wrapper">
-        <div class="box2">
-          <div class="wrapper">
-            
-          </div>
-        </div>
-      </div>
-    </article>
+    
+    </article><br>
     <!-- / content -->
-    <!-- footer -->
-    <footer>
+ 
      @include('layout.footer')
-    </footer>
+   
     <!-- / footer -->
   </div>
 </div>

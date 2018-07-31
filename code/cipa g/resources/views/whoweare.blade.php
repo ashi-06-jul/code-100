@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <link rel="icon" href="images/cipa.png" type="image/jpg" sizes="16x16">
 <title>Who We Are ?</title>
 <meta charset="utf-8">
 <link rel="stylesheet" href="css/reset.css" type="text/css" media="all">
@@ -43,13 +44,13 @@ If a family feels they need more information on their numerous queries or would 
             </section>
           </div>
         </div>
-      </div>
+      </div><br>
       
     <!-- / content -->
     <!-- footer -->
-    <footer>
+    
 @include('layout.footer')
-    </footer>
+   
     <!-- / footer -->
   </div>
 </div>

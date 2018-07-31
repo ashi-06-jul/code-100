@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>Hope Center | News</title>
+  <link rel="icon" href="images/cipa.png" type="image/jpg" sizes="16x16">
+<title>CIPA | News</title>
 <meta charset="utf-8">
 <link rel="stylesheet" href="css/reset.css" type="text/css" media="all">
 <link rel="stylesheet" href="css/layout.css" type="text/css" media="all">
@@ -69,9 +70,9 @@
     
     <!-- / content -->
     <!-- footer -->
-    <footer>
+   
 @include('layout.footer')
-    </footer>
+    
     <!-- / footer -->
   </div>
 </div>

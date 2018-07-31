@@ -7,6 +7,9 @@ body file
 
 
 @section('body')
+<body id="page1">
+<div class="body1">
+  <div class="main">
       <div class="wrapper">
         <div class="box1">
           <div class="line1">
@@ -20,15 +23,17 @@ body file
               <section class="col1 pad_left1">
                 <h2 class="color2"><strong>S</strong>uccess<span> Story</span></h2>
                 <div class="pad_bot1">
-                  <figure><img src="images/hqdefault.jpg"  height="210px" width="270px" alt=""></figure>
+                  <figure><img src="images/vinayak.jpg"  height="210px" width="270px" alt=""></figure>
                 </div>
                 This Hope Center Template goes with two packages – with PSD source files and without them.<a href="/test" class="button1 color2">Read More</a> </section>
                 <section class="col1 pad_left1">
                 <h2 class="color3"><strong>S</strong>uccess<span> Story</span></h2>
                 <div class="pad_bot1">
-                  <figure><img src="images/jeugen.jpg" height="210px" width="270px" alt=""></figure>
+                  <figure><img src="images/sonali.png" height="210px" width="270px" alt=""></figure>
                 </div>
-                This Hope Center Template goes with two packages – with PSD source files and without them.<a href="/test" class="button1 color2">Read More</a> </section>
+                With courage in her heart and might in her pocket,
+                With zeal in her eyes and stardust in her locket,
+                She had her destination and knew how to knock it<a href="/test" class="button1 color2">Read More</a> </section>
 
 
 

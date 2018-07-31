@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <link rel="icon" href="images/cipa.png" type="image/jpg" sizes="16x16">
-<title>CIPA-Ortho </title>
+<title>CIPA-Orthodontics </title>
 <meta charset="utf-8">
 <link rel="stylesheet" href="css/reset.css" type="text/css" media="all">
 <link rel="stylesheet" href="css/layout.css" type="text/css" media="all">
@@ -66,10 +66,10 @@ div.desc {
                  <h2 class="color2"><strong>N</strong>ASOALVEOLAR<span>  MOLDING AT BIRTH</span></h2>
               
                 <figure class="left marg_right1"></figure>
-                <p class="pad_bot1" style=""><h5>
-                1.Pre-surgical infant orthopedics is sometimes used to reposition the segments of the cleft maxilla prior to lip repair. This can vary in complexity from lip taping to narrow the cleft, to a bonnet with elastic to ventroflex a protruding premaxilla, to more complex Nasoalveolar Molding appliances.<br><br>
-        2.These appliances can make lip closure easier. While this short-term benefit is clear, long term effects are unclear and controversial.<br><br>
-        3.Some clinicians use orthopedic appliances to alter the appearance of the nose and/or columella to improve the shape prior to lip repair.<br><br>
+                <p class="pad_bot1" ><h5 style="text-align: justify;">
+                1.Pre-surgical infant orthopedics is sometimes used to reposition the segments of the cleft maxilla prior to lip repair. This can vary in complexity from lip taping to narrow the cleft, to a bonnet with elastic to ventroflex a protruding premaxilla, to more complex Nasoalveolar Molding appliances.<br>
+        2.These appliances can make lip closure easier. While this short-term benefit is clear, long term effects are unclear and controversial.<br>
+        3.Some clinicians use orthopedic appliances to alter the appearance of the nose and/or columella to improve the shape prior to lip repair.<br>
         *MOST EFFECTIVE DURING THE FIRST 4 MONTHS OF BIRTH<br>
         *NOT REQUIRED IN ALL CASES
                 </h5>
@@ -170,7 +170,7 @@ div.desc {
               
               <p>
                 <h2>Preparation <span>of the Dental Arches Before Bone Grafting</span></h2>
-             <h5>Some children need a short period of orthodontic treatment using fixed or removable braces before the operation. This takes six months to a year and aims to improve your child’s bite (how the teeth fit together when your child bites on something) and the shape of the cleft. Other children need some baby teeth removed a few months beforehand so that the gum is fully healed by the time of the operation.<br></h5>
+             <h5 style="text-align: justify;">Some children need a short period of orthodontic treatment using fixed or removable braces before the operation. This takes six months to a year and aims to improve your child’s bite (how the teeth fit together when your child bites on something) and the shape of the cleft. Other children need some baby teeth removed a few months beforehand so that the gum is fully healed by the time of the operation.<br></h5>
              
              <div class="gallery">
     <a target="_blank">
@@ -212,7 +212,7 @@ div.desc {
   </a>
   
 </div></p><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-<h5><br><br> A reverse pull headgear may be considered to protract the maxilla and maintain normal jaw relations. This is an effective treatment modality but requires considerable compliance on the part of the patient. Overall success is also uncertain due to the difficulty in anticipating future jaw growth when trying to compensate for inadequate maxillary growth.</h5>
+<h5 style="text-align: justify;"><br><br> A reverse pull headgear may be considered to protract the maxilla and maintain normal jaw relations. This is an effective treatment modality but requires considerable compliance on the part of the patient. Overall success is also uncertain due to the difficulty in anticipating future jaw growth when trying to compensate for inadequate maxillary growth.</h5>
  
  <p>
               <h2>Quad<span> Helix Expansion</span></h2>
@@ -310,7 +310,7 @@ div.desc {
               <p>
                 <h2>Alveolara <span>Bone Grafting</span></h2>
 
-                <h5>Your child may need an alveolar bone graft to allow his or her teeth to develop in the right place. Usually done from the age of 7-9 years. The timing depends on the root development of the tooth which has to erupt through the graft. Orthodontic preparation is required in many cases to allow the surgeon to access the graft site and fill it with the patients own bone. Bone can be harvested from the patients hip , tibia, rib etc<br></h5>
+                <h5 style="text-align: justify;">Your child may need an alveolar bone graft to allow his or her teeth to develop in the right place. Usually done from the age of 7-9 years. The timing depends on the root development of the tooth which has to erupt through the graft. Orthodontic preparation is required in many cases to allow the surgeon to access the graft site and fill it with the patients own bone. Bone can be harvested from the patients hip , tibia, rib etc<br></h5>
              <div class="gallery">
     <a target="_blank">
     <img src="images/c11.jpg" alt="Trolltunga Norway" width="300" height="250">
@@ -349,7 +349,7 @@ div.desc {
                            
              <p>
               <h2>Orthodontics<span> in Permanent Dentition</span></h2>
-             <h5> Like regular braces for non cleft children, orthodontics can align the teeth and make the arches symmetrical for cleft children as well.<br></h5><br>
+             <h5 style="text-align: justify;"> Like regular braces for non cleft children, orthodontics can align the teeth and make the arches symmetrical for cleft children as well.<br></h5><br>
              <h5>i)BEFORE TREATMENT</h5>
              <div class="gallery">
   <a target="_blank">
@@ -414,7 +414,7 @@ div.desc {
               </p>
               <p>
                 <h2>Orthognathic Surgery</h2>
-                <h5>In about 25% of the patients the upper jaw lags behind the lower in growth. These patients require orthognathic surgery. Orthodontic treatment before surgery decompensates the arches and after surgery settles the teeth into good occlusion. This is performed at adulthood after growth completion usually after the age of 18 years.<br></h5>
+                <h5 style="text-align: justify;">In about 25% of the patients the upper jaw lags behind the lower in growth. These patients require orthognathic surgery. Orthodontic treatment before surgery decompensates the arches and after surgery settles the teeth into good occlusion. This is performed at adulthood after growth completion usually after the age of 18 years.<br></h5>
              <div class="gallery">
   <a target="_blank">
     <img src="images/n21.jpg" alt="Forest" width="300" height="250">
@@ -516,12 +516,12 @@ div.desc {
  
 </div>
               </p>
-              </div>
-            </section>
-          </div>
+               </section>
+                     </div>
         </div>
       </div>
   </article><br>
+
     <!-- / header -->
     <!-- content -->
     
@@ -532,50 +532,5 @@ div.desc {
     <!-- / footer -->
   </div>
 </div>
-<script type="text/javascript">Cufon.now();</script>
-<script type="text/javascript">
-$(window).load(function () {
-    $('.slider')._TMS({
-        preset: 'zabor',
-        easing: 'easeOutQuad',
-        duration: 800,
-        pagination: true,
-        banners: true,
-        waitBannerAnimation: false,
-        slideshow: 6000,
-        bannerShow: function (banner) {
-            banner.css({
-                right: '-700px'
-            }).stop().animate({
-                right: '0'
-            }, 600, 'easeOutExpo')
-        },
-        bannerHide: function (banner) {
-            banner.stop().animate({
-                right: '-700'
-            }, 600, 'easeOutExpo')
-        }
-    })
-    $('.pagination li').hover(function () {
-        if (!$(this).hasClass('current')) {
-            $(this).find('a').stop().animate({
-                backgroundPosition: '0 0'
-            }, 600, 'easeOutExpo', function () {
-                $(this).parent().css({
-                    backgroundPosition: '-20px 0'
-                })
-            });
-        }
-    }, function () {
-        if (!$(this).hasClass('current')) {
-            $(this).css({
-                backgroundPosition: '0 0'
-            }).find('a').stop().animate({
-                backgroundPosition: '-250px 0'
-            }, 600, 'easeOutExpo');
-        }
-    })
-})
-</script>
 </body>
 </html>

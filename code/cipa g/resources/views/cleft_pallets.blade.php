@@ -1,7 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="icon" href="images/cipa.png" type="image/jpg" sizes="16x16">
+<title>CIPA | Cleft lip  palate</title>
+<meta charset="utf-8">
+<link rel="stylesheet" href="css/reset.css" type="text/css" media="all">
+<link rel="stylesheet" href="css/layout.css" type="text/css" media="all">
+<link rel="stylesheet" href="css/style.css" type="text/css" media="all">
+<script type="text/javascript" src="js/jquery-1.6.js"></script>
+<script type="text/javascript" src="js/cufon-yui.js"></script>
+<script type="text/javascript" src="js/cufon-replace.js"></script>
+<script type="text/javascript" src="js/Vegur_700.font.js"></script>
+<script type="text/javascript" src="js/Vegur_400.font.js"></script>
+<script type="text/javascript" src="js/Vegur_300.font.js"></script>
+<script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+<script type="text/javascript" src="js/tms-0.3.js"></script>
+<script type="text/javascript" src="js/tms_presets.js"></script>
+<script type="text/javascript" src="js/backgroundPosition.js"></script>
+<script type="text/javascript" src="js/atooltip.jquery.js"></script>
+<script type="text/javascript" src="js/script.js"></script>
+<!--[if lt IE 9]>
+<script type="text/javascript" src="js/html5.js"></script>
+<style type="text/css">.box1 figure{behavior:url("js/PIE.htc");}</style>
+<![endif]-->
+<style>
+.accordion {
+    background-color:#dad6cc;
+    color:#b7b7b7;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+}
 
-@extends('layout.cleft')
+.active, .accordion:hover {
+    background-color: #fff;
+}
 
-   @section('cleft') 
+.accordion:after {
+    content: '\002B';
+    color: #dd3333;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+}
+
+.active:after {
+    content: "\2212";
+}
+
+.panel {
+    padding: 0 18px;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+}
+</style>
+</head>
+ <body id="page1">
+<div class="body1">
+  <div class="main">
+ @include('layout.header')
 
    <div>
     <header style="background-color:#e0a1a1; height: 250px; border-radius: 5px">
@@ -10,10 +74,10 @@
     <strong>W</strong><span>hat is Cleft Lip and Pallate ?</span> 
       </h2>
       <h2 style="text-align: center;">
-        <strong>C</strong><span>left lip and pallate is a serious condition, but its challenges can be overcome</span>
+        <strong>C</strong><span>hallenging deformity which can be cure by due care</span>
       </h2>
       <br>
-      <center><img src="images/blog3.jpg" style="height: 300px;width: 1000px; border-radius: 15px;"></center>
+      <center><img src="images/blog3.jpg" style="height: 370px;width: 1000px; border-radius: 15px;"></center>
     </article>
     </header>
    </div> 
@@ -24,150 +88,290 @@
    <br>
    <br>
 
-
+<br>
    <br>
    <br>
-   <br>
+   
       <button class="accordion" style=" color: #575652; font-size: 17px;"><span><span><b>What is cleft lip and palate?</b></span></span></button>
 <div class="panel" style="background-color:#d6d5d5; color: black;">
       
-           <p >A cleft is a split or gap in a structure.  A split upper lip is called a Cleft Lip, while the term 
-           Cleft Palate is used when the gap involves the roof of the mouth.  The deformity has variable degree of
-            severity.  In its mildest form, there is only a slight notching of the upper lip.  The most severe form 
-            involves a cleft of the lip, the palate as well as the intervening alveolus (the bony ridge from which the 
-            teeth erupt).  This is known as a Complete Cleft Lip and Palate.  The deformity may affect only one side 
-            (a Unilateral Cleft), or both sides may be involved (a Bilateral Cleft).</p><p>
-	Whatever the deformity, surgical procedures are available to repair the gap.  This must be undertaken by a trained 
-  Plastic Surgeon.  He will work closely with an Orthodontist (Specialist Dentist) and speech language pathologist.  
-  If your child has only a Cleft Lip, one operation will suffice to correct it.  He or she will look and speak normally
-   and the scar will scarcely be visible in later years.  Similarly when only cleft palate is present, single operation
-    will suffice to close the defect in the roof of the mouth.</p><p>
+            <p >A cleft is a split or gap in a structure.  A split upper lip is called a Cleft Lip, while the term Cleft Palate is used when the gap involves the roof of the mouth.  The deformity has variable degree of severity.  In its mildest form, there is only a slight notching of the upper lip.  The most severe form involves a cleft of the lip, the palate as well as the intervening alveolus (the bony ridge from which the teeth erupt).  This is known as a Complete Cleft Lip and Palate.  The deformity may affect only one side (a Unilateral Cleft), or both sides may be involved (a Bilateral Cleft).</p>
 
-	If your child has Cleft Lip and Palate, two operations will be needed during infancy before the gap is completely
-   closed.  You must expect that with more severe deformity, your child may speak differently from normal children 
-   and will therefore require speech therapy.  In addition, regular visits to the Orthodontist will be necessary.</p>
-   
-	
-<p><img src="images/cleft-lip.gif" border="0" alt="" height="300px" width="300px" style="  border-radius: 8px;" /></p>  </div>
-      
-       <button class="accordion" style=" color: #575652; font-size: 17px;"><span><span><b>What Causes a Cleft Lip and Cleft Palate?</b></span></span></button>
+            <p>
+            Whatever the deformity, surgical procedures are available to repair the gap.  This must be undertaken by a trained Plastic Surgeon.  He will work closely with an Orthodontist (Specialist Dentist) and speech language pathologist.  If your child has only a Cleft Lip, one operation will suffice to correct it.  He or she will look and speak normally and the scar will scarcely be visible in later years.  Similarly when only cleft palate is present, single operation will suffice to close the defect in the roof of the mouth.
+               </p>
+
+            <p>If your child has Cleft Lip and Palate, two operations will be needed during infancy before the gap is completely closed.  You must expect that with more severe deformity, your child may speak differently from normal children and will therefore require speech therapy.  In addition, regular visits to the Orthodontist will be necessary.</p>
+
+            <p>If the child reports after 2 years of age, then many surgeons perform all the surgeries in one stage. However, most of the surgeons still prefer to repair lip and palate separately in two different operations.</p>
+             <p><img src="images/cap1.jpg" border="0" alt="" height="300px" width="300px" style="  border-radius: 8px;" /></p>
+
+            </div>
+
+            <button class="accordion" style=" color: #575652; font-size: 17px;"><span><span><b>How often does it occur?</b></span></span></button>
 <div class="panel" style="background-color:#d6d5d5; color: black;">
       
-      <p></p>
-            <p>In most cases, the cause of cleft lip and cleft palate is unknown. Most scientists believe clefts are due to a combination of genetic and environmental factors. There appears to be a greater chance of clefting in a newborn if a sibling, parent, or relative has had the problem. In other situations, cleft lip and cleft palate may be part of another medical condition.<br />Researchers believe that most cases of cleft lip and cleft palate are caused by an interaction of genetic and environmental factors. In many babies, a definite cause isn't discovered. </p>
-<ul>
-<li>Genes inherited from the parents. Either the mother or the father can pass on genes that cause clefting, either as an isolated defect or as part of a syndrome that includes clefting as one of its signs. In some cases, babies inherit a gene that makes them more likely to develop a cleft, and then an environmental trigger actually causes the cleft to occur. Orofacial clefts present as part of the phenotype in over 600 specific genetic syndromes, more commonly in association with isolated CP. The proportion of CL/P associated with specific syndromes has been reported as between five and seven per cent. There exists a male preponderance in CL/P predominance of left-sided clefting. In an attempt to determine which genes are involved, genetic linkage studies have been conducted suggesting a variety of loci, including regions on chromosomes 1, 2, 4, 6, 9, 14, 17, and 19.and a meta-analysis of whole genome linkage studies suggests putative loci at 2q32–q35 and 9q21–q33.A variety of genetic polymorphisms have been investigated in population based association studies. Genes responsible for growth factors (e.g. TGFα, TGFβ3), transcription factors (e.g. MSX1, IRF6, TBX22), or factors which influence xenobiotic metabolism (e.g. CYP1A1, GSTM1, NAT2), nutrient metabolism (e.g. MTHFR, RARA) or immune response (e.g. PVRL1, IRF6) have been implicated. An interesting recent finding is that the gene, IRF6, the gene implicated in Van der Woude syndrome (VDWS) has been shown to play a strong role in the isolated form of clefting,</li>
-<li>Exposure to certain substances during pregnancy. Cleft lip and cleft palate may be more likely to occur in pregnant women who smoke cigarettes, drink alcohol and take certain medications. The main environmental factors which have been reported as possibly increasing the risk of orofacial clefts are tobacco smoking, alcohol consumption, solvents and agricultural chemicals. Certain types of anti-epileptic drugs have also been reported to increase the risk. It is, however, an established fact that the magnitude of the risk of recurrence of orofacial clefts to siblings.and the increase in risk after two or more affected siblings is greater than that predicted by the familial aggregation of environmental risk factors.</li>
-</ul><p><img src="images/cleft-lip1.jpg" border="0" style=" border-radius: 8px;" /></p></div>
-     <button class="accordion"  style=" color: #575652; font-size: 17px;"> <span><span><b>Risk factors</b></span></span></button>
+            <p >In India, approximately 1 in every 700 babies is born with a Cleft deformity.  This means that there are more than 20 lac patients of clefts in our country, which are being managed by around 2000 cleft surgeons. Every year 30,000 to 35,000 children with cleft lip or cleft palate or cleft lip and palate are added to our Indian society.</p>
+
+            <p>
+            Cleft lip occurs more often in boys and cleft palate is encountered more often in girls. This speaks of the magnitude of problem existing in our country. 
+               </p>
+
+            <p><img src="images/cleft-lip.gif" border="0" alt="" height="300px" width="300px" style="  border-radius: 8px;" /></p>
+            </div>
+
+       <button class="accordion" style=" color: #575652; font-size: 17px;"><span><span><b>What causes a cleft lip and cleft palate?  “Is it my fault?”</b></span></span></button>
 <div class="panel" style="background-color:#d6d5d5; color: black;">
-            <p>Several factors may increase the likelihood of a baby developing a cleft lip and cleft palate, including: </p>
+      
+      
+            <p>In fact we do not know the answer to this question fully. During early pregnancy, the different parts of the head and face first develop separately and later fuse with each other.  Defective fusion of these parts can result in a cleft deformity.  The exact cause of clefts is not clear, but we know that both genetic and environmental factors play their roles.  Some situations that could result in a cleft deformity are: </p>
+            <ul>
+            <li>1. A woman who has had rubella infection (German Measles) during early pregnancy.</li>
+            <li>2. The use of certain drugs by a woman during pregnancy.</li>
+            <li>3. Chromosomal disorders such as Mongolism (Down’s Syndrome)</li>
+            </ul><br>
+            <p>In most cases, there is no identifiable cause i.e. the occurrence of the deformity is sporadic.  Therefore, in the vast majority of cases, the birth of a baby with a cleft deformity is no one’s fault.<b>  It is not due to something you did. So you should not have any feeling of guilt.</b></p>
+            <p>Cleft lip and cleft palate may be more likely to occur in pregnant women who smoke cigarettes, drink alcohol and take certain medications. The main environmental factors which have been reported as possibly increasing the risk of orofacial clefts are tobacco smoking, alcohol consumption, solvents and agricultural chemicals. Certain types of anti-epileptic drugs have also been reported to increase the risk. </p>
+            <p>Many people believe that cutting a vegetable or holding sharp objects during pregnancy, watching solar eclipse, evil act, karma, incarnation, witchcraft, God’s punishment, eating rabbit meat, adultery by mother, Djinn (evil spirits), black magic or walking outdoor on Amavasya may cause cleft in the new born. On the other hand many community consider it as God’s gift. However, these are only beliefs and there is no scientific basis to any one of them. Scientifically we consider these causes as only myth. Hence please do not them seriously. </p>
+            <p><img src="images/cap2.jpg" border="0" alt="" height="300px" width="300px" style="  border-radius: 8px;" /></p></div>
+
+
+     <button class="accordion"  style=" color: #575652; font-size: 17px;"> <span><span><b>Will my next baby have a cleft?</b></span></span></button>
+<div class="panel" style="background-color:#d6d5d5; color: black;">
+            <p>It is unlikely.  There is dependable evidence of its occurrence in family. The risk of occurrence of cleft lip and palate is more in families where already the parents or grand parents or other siblings have cleft. So if there is history of cleft in two or more family members, the chances of cleft in next child is high. </p>
+
+            <p>Depending on the situation, the following probabilities have been worked out:</p>
+
 <ul>
-<li><strong>Family history.</strong> Parents with a family history of cleft lip or cleft palate face a higher risk of having a baby with a cleft.</li>
-<li><strong>Race.</strong> Cleft lip and palate are most common in American Indian and Asian children. Black children are least likely to have a cleft.</li>
-<li><strong>Sex</strong>. Males are twice as likely to have a cleft lip with or without cleft palate. Cleft palate without cleft lip is more common in females.</li>
-<li><strong>Exposure to certain substances during pregnancy.</strong> Babies born to women who smoked or drank alcohol or poor nutrition during pregnancy are more likely to develop cleft lip and cleft palate. Cleft lip and cleft palate may also occur as a result of exposure to viruses or chemicals while the fetus is developing in the womb.</li>
-<li><strong>Being obese during pregnancy.</strong> There is some evidence that babies born to obese women may have increased risk of cleft lip and palate. </li>
-<li><strong>Diabetes</strong> ―Women with diabetes diagnosed before pregnancy have been shown to be an increased risk of having a child with a cleft lip with or without cleft palate</li>
-<li><strong>Medication</strong> a mother may have taken during her pregnancy: anti-seizure/anticonvulsant drugs, acne drugs containing Accutane, and methotrexate.</li>
-</ul></div>
+<li>1. IF BOTH PARENTS ARE NORMAL AND 1 CHILD HAS A CLEFT; the chance of the second child having a cleft is 1 in 20.</li>
+<li>2. IF BOTH PARENTS ARE NORMAL AND BOTH 1ST AND 2ND CHILDREN HAVE CLEFTS, The chance of the next child having a cleft is 1 in 4.</li>
+<li>3. IF 1 PARENT HAS A CLEFT, The chance of the first child having a cleft is 1 in 20.</li>
+<li>4. IF 1 PARENT HAS A CLEFT AND 1 CHILD HAS A CLEFT, The chance of the next child having a cleft is 1 in 4.</li>
+<li>5. IF BOTH THE PARENTS HAVE CLEFTS, The chance of the first child having a cleft is 1 in 4.</li></ul>
+<br><p>If you have any doubts, your Surgeon will refer you to the Geneticist who will provide you with genetic counselling.</p>
+<br>
+<p><img src="images/cap3.jpg" border="0" alt="" height="300px" width="300px" style="  border-radius: 8px;" /></p>
+</div>
  <button class="accordion"  style=" color: #575652; font-size: 17px;"> <span><span><b>How Are Cleft Lip and Cleft Palate Diagnosed?</b></span></span></span></button>
 <div class="panel"  style="background-color:#d6d5d5; color: black;">
-            <p>Orofacial clefts sometimes can be diagnosed during pregnancy, usually by a routine ultrasound. Most often, orofacial clefts are diagnosed after the baby is born. However, sometimes minor clefts (e.g., submucous cleft palate and bifid uvula) might not be diagnosed until later in life.</p>
+            <p>Now the orofacial clefts are quite commonly diagnosed during pregnancy, usually by a routine ultrasound. New 3D ultrasounds give very clear picture of the baby’s face and one can see the cleft lip in 18 week baby in uterus. In routine, orofacial clefts are diagnosed after the baby is born. However, sometimes minor clefts (e.g., submucous cleft palate and bifid uvula) might not be diagnosed until later in life.</p>
+
 <p>If the clefting has not been detected in an ultrasound prior to the baby's birth, a physical examination of the mouth, nose, and palate confirms the presence of cleft lip or cleft palate after a child's birth. Sometimes diagnostic testing may be conducted to determine or rule out the presence of other abnormalities.</p>
-<p><img src="images/Cleft-Palate-Diagnosed.jpg" border="0" alt="" /></p>  </div>  
+<p>
+   <img src="images/Cleft-Palate-Diagnosed.jpg" border="0" alt="" height="300px" width="300px" style="  border-radius: 8px;" />
+  </p>  </div> 
+
+
        <button class="accordion"  style=" color: #575652; font-size: 17px;">  <span><span><b>What Problems Are Associated With Cleft Lip and/or Palate?</b></span></span></button>
 <div class="panel" style="background-color:#d6d5d5; color: black;">
-           <p>Eating problems. With a separation or opening in the palate, food and liquids can pass from the mouth back through the nose. Feeding In babies, the palate is important in generating suction when feeding. Babies with an unrepaired cleft palate will typically have difficulties creating enough suction to get sufficient milk from the breast or teat. In addition, they may also have difficulty compressing a nipple or teat if there is not enough gum or palate to compress against. This can make feeding a long and tiring process, and the baby may not get enough milk for adequate growth. Fortunately, specially designed baby bottles and nipples that help keep fluids flowing downward toward the stomach are available. Sometimes Children with a cleft palate may need to wear a man-made palate to help them eat properly and ensure that they are receiving adequate nutrition until surgical treatment is provided. Done by a dentist or orthodontist  even days after birth.</p>
-<p>Ear infections/hearing loss. Children with cleft palate are at increased risk of ear infections since they are more prone to fluid build-up in the middle ear. If left untreated, ear infections can cause hearing loss.  Every baby with a cleft palate needs to have their hearing monitored closely by an audiologist – a hearing assessment should generally be arranged for when the baby is around 4 weeks old, and repeated again at around 12 weeks of age. After the second hearing test, a review appointment with an ear, nose and throat (ENT) surgeon is required. At this time a decision will be made regarding the need for small tubes (grommets) to be inserted into the eardrums. This can usually be done at the same time as the palate is repaired. Tubes usually stay in the eardrums for around 6–9 months. Some children will need more tubes if hearing problems continue. Annual hearing tests are recommended during early childhood for children with a history of cleft palate.</p>
-<p>Speech problems. Children with cleft lip or cleft palate may also have trouble speaking. These children's voices don't carry well, the voice may take on a nasal sound, and the speech may be difficult to understand. The palate is very important in speech. In the closed position the palate usually shuts off tightly against the back and sides of the throat to make a seal which stops air from entering the nose. This is very important for a large number of consonants (p, b, t, d, k, g, f, v, s, z, sh, ch) and for the tone of speech. If the palate does not do its job, air escapes into the nose and may prevent development of consonants as well as cause an excessively nasal sounding voice. Some children also develop a range of sounds not usually heard in their native language. This makes them difficult to understand and is frustrating to the child. Speech therapy is usually helpful in eliminating these sounds and developing the sounds found in the child’s native languageNot all children have these problems and surgery may fix these problems entirely for some. For others, a special doctor, called speech pathologist, will work with the child to resolve speech difficulties.</p>
-<p>Dental Problems. Children with clefts are more prone to a larger than average number of cavities and often have missing, extra, malformed, or displaced teeth requiring dental and orthodontic treatments. In addition, children with cleft palate often have an alveolar ridge defect. The alveolus is the bony upper gum that contains teeth. A defect in the alveolus can (1) displace, tip, or rotate permanent teeth, (2) prevent permanent teeth from appearing, and (3) prevent the alveolar ridge from forming. These problems can usually be repaired through oral surgery.</p><p><img src="images/cleftlip.gif" border="0" alt="" /></p></div>
-             <button class="accordion"  style=" color:#575652; font-size: 17px;">  <span><span><b>Who Treats Children With Cleft Lip and/or Palate?</b></span></span></button>
+           <p>There are few problems associated with cleft lip and palate. There are some related to cleft lip and some special problems are associated with cleft palate.</p>
+
+<p>The problems with cleft lip are mainly cosmetic problem. It does not look good in centre of the face and attracts public attention. But there is not much functional problem with cleft lip. The teeth may be deformed in the region of the cleft lip but all other functions remain normal.</p>
+
+<p>Cleft palate is more notorious and cause large number of functional problems:</p>
+<ul>
+  <li>
+    1.  Feeding problem
+  </li>
+  <li>
+    2.  Nutritional deficiency because of difficulty in feeding
+  </li>
+  <li>
+    3.  General growth may be affected because of deficient nutrition.
+  </li>
+  <li>
+    4.  Child swallows more air and so causes vomiting after feeding.
+  </li>
+  <li>
+    5.  Speech may be abnormal
+  </li>
+  <li>
+    6.  Teeth may be deformed
+  </li>
+  <li>
+    7.  Midface (Maxilla) may not develop adequately causing depressed central face.
+  </li>
+  <li>
+    8.  Middle ear infection and discharging ear
+  </li>
+  <li>
+    9.  Hearing may be affected
+  </li>
+  <li>
+    10. Recurrent respiratory infection may occur.
+  </li>
+</ul>
+<br>
+
+<p>Some of the important problems are given in detail in following questions.</p>
+<p><img src="images/cap4.png" border="0" alt="" height="300px" width="300px" style="  border-radius: 8px;" /></p>
+</div>
+
+             <button class="accordion"  style=" color:#575652; font-size: 17px;">  <span><span><b>Will I have problems feeding my baby?</b></span></span></button>
 <div class="panel" style="background-color:#d6d5d5; color: black;">
      
    
-            <p>Members of a cleft lip and palate team typically include:</p>
-<ul>
-<li>Plastic surgeon to evaluate and perform necessary surgeries on the lip and/or palate</li>
-<li>An otolaryngologist (an ear, nose, and throat doctor) to evaluate hearing problems and consider treatment options for hearing problems</li>
-<li>An oral surgeon to reposition segments of the upper jaw when needed, to improve function and appearance and to repair the cleft of the gum</li>
-<li>An orthodontist to straighten and reposition teeth</li>
-<li>A dentist to perform routine dental care</li>
-<li>A prosthodontist to make artificial teeth and dental appliances to improve the appearance and to meet functional requirements for eating and speaking</li>
-<li>A speech pathologist to assess speech and feeding problems</li>
-<li>A speech therapist to work with the child to improve speech</li>
-<li>An audiologist (a specialist in communication disorders stemming from a hearing impairment); to assess and monitor hearing</li>
-<li>A nurse coordinator to provide ongoing supervision of the child's health</li>
-<li>A social worker/psychologist to support the family and assess any adjustment problems</li>
-<li>A geneticist to help parents and adult patients understand the chances of having more children with these conditions</li>
-</ul>
-<p>The health care team works together to develop a plan of care to meet the individual needs of each patient. Some teams have other members like a medical photographer, pediatrician etc. Treatment usually begins in infancy and often continues through early adulthood. In india cleft teams are there in only selected hospitals. To know more link  to smile train centres www.smiletrainindia.org/treatment-centers.php as well as the website of the Indian society of Cleft Lip and palate and craniofacial anomalies.<br /><br /></p> </div>    
+            <p>Babies with clefts have trouble with feeding because the normal anatomy of the oral cavity is disrupted. Normally, a baby pulls the nipple into the mouth and makes a seal with the lips around the nipple. When a baby sucks and swallows, their palate rises up and closes off the mouth from the nose. This creates suction so that the breast or bottle nipple is held in the mouth and the milk is drawn out. When a cleft lip is present, it may be difficult for the baby to make a good seal around the nipple. When a cleft palate is present, the mouth cannot be closed off from the nose and little or no suction can be created.</p>
+
+<p>Your baby may suck more slowly and feeding time may be longer.  Do not be alarmed if some of the feeds flow out through the nose, causing spluttering or coughing.  This is due to the cleft in the palate.  You must be gentle and patient.  Do not rush a feed or choking may result.  Prolonged feeding may exhaust your child, so use smaller feeds but at more frequent intervals.</p>
+<p><img src="images/cap5.jpg" border="0" alt="" height="300px" width="300px" style="  border-radius: 8px;" /></p> </div>
+
  <button class="accordion"  style=" color:#575652; font-size: 17px;">
-   <span><span><b>What’s the Treatment for Cleft Lip and Cleft Palate?</b></span></span></button>
+   <span><span><b>How should I feed my baby?</b></span></span></button>
 <div class="panel" style="background-color:#d6d5d5; color: black;">
-            <p>Suggested Protocol for Treating Clefts </p>
-<ol>
-<li>Optional pre-surgical orthodontics – in infancy</li>
-<li>Surgical repair of lip and palate</li>
-<li>Phase I orthodontics - in mixed dentition: differential expansion &amp; alignment </li>
-<li>Surgical bone graft in area of cleft</li>
-<li>Phase II orthodontics – in permanent dentition: full mechanotherapy to align dentition</li>
-<li>Orthognathic surgery (phase III orthodontics): integrated with growth completion</li>
-<li>Prosthetic &amp; esthetic reconstruction – young adults</li>
-</ol>
-<p><b>PNAM:</b> Presurgical naso alveolar molding. The nasoalveolar moulding appliance (NAM) consists of an intraoral moulding plate with nasal stents to mould the alveolar ridge and nasal cartilage concurrently. The objective of the presurgical NAM is to reduce the severity of the original cleft deformity and thereby enable the surgeon to achieve better repair of the alveolus, lip and nose. Use of the NAM technique has also eliminated surgical columella reconstruction and the resultant scar tissue in bilateral cleft lip and palate. <br />This technique takes advantage of the malleability of immature nasal cartilage and its ability to maintain a permanent correction of its form. </p>
-<p><b>Lip Repair:</b> Within the first 3–4 months after birth, surgery is performed to close the cleft lip. While surgery to repair a cleft lip can be performed soon after birth, often the preferred age is above 10 weeks of age, following the "rule of 10s" coined by surgeons Wilhelmmesen and Musgrave in 1969 (the child is at least 10 weeks of age; weighs at least 10 pounds, and has at least 10g hemoglobin). If the cleft is bilateral and extensive, two surgeries may be required to close the cleft, one side first, and the second side a few weeks later. Cleft lip repair, also called cheiloplasty, reconstructs the normal appearance, namely:</p>
-<ul>
-<li>Closure of the cleft resulting in a scar located in the normal structures of the upper lip </li>
-<li>Formation of a cupid’s bow (the curve at the center of the upper lip) </li>
-<li>Considerations for adequate distance between the upper lip and nose </li>
-</ul>
-<p>Cleft Palate Repair: Cleft palate can also be corrected by surgery, usually performed between 6 and 12 months. Approximately 20–25% only require one palatal surgery to achieve a competent velopharyngeal valve capable of producing normal, non-hypernasal speech. However, combinations of surgical methods and repeated surgeries are often necessary as the child grows. Because the palate creates the ﬂoor of the nasal cavity, considerations in repairing a cleft palate include:</p>
-<ul>
-<li>Allowing for normal growth, function and speech development </li>
-<li>Relation of the palate to the auditory canal and hearing </li>
-</ul>
-<b>Development of the teeth and jaw alignment</b>>
-<p><b>Alveolar Bone Grafting (Phase 1 Orthodontics):</b> Children with a cleft palate may also need a bone graft when they are about 7-9 years old to fill in the upper gum line so that it can support permanent teeth and stabilize the upper jaw. The reasons for performing a bone graft are to stabilize the maxillary segments, provide bony support for the teeth adjacent to the cleft, give additional support for the alar base and allow for the movement of the cuspid into the lateral incisor position. Typically, this procedure is performed at a stage of transitional dentition, when the canine root has not fully formed; this provides an osseous environment to support tooth eruption into the arch. The orthodontic arch preparation is required in many cases to allow for a successful bone graft.</p>
-<p><b>Orthodontic Treatment (Phase 2).</b>> This is done in the permanent dentition to align the arch just like any regular child would undergo at this age.</p>
-<p><b>Orthodontic treatment before and after orthognathic (jaw) surgery (Phase 3):</b> Due to the scar of the repaired lip and palate, in about 25-30% of the cleft children the upper jaw growth is retarded. It cannot match the lower jaw growth. In such children jaw surgery will correct the deformity. This is usually done when the growth is complete, in adulthood. This requires an orthodontic treatment before orthognathic surgery and after surgery to fit the teeth into good intercuspation. </p>
-<p>Misc: Additional surgeries may be performed to improve the appearance of the lip and nose, close openings between the mouth and nose, help breathing, and stabilize and realign the jaw. Final repairs of the scars left by the initial surgery will probably not be performed until adolescence, when the facial structure is more fully developed.</p> <p><img src="images/Depositphotos.jpg" border="0" alt="" /></p>   </div>
+            <p><b>Cleft lip:</b> For breastfeeding babies, the soft breast tissue often will fill the opening in the lip and/or gum line well, sealing off the mouth and allowing the baby to create adequate suction. Sometimes it is helpful for the mother to hold a finger across the cleft during feeding. Swallowing noises and a bowel movement after feeding are signs that breast-feeding is going well. If the baby is "noisy" with feeding, making clicking or kissing noises, suction may not be adequate.</p><p>
+          Mothers who choose to bottle-feed their babies with cleft lip should try using nipples with a wider base, or their infants may need special bottles or nipples. When starting a feeding, hold the baby in a slightly upright position. Touch the baby's lower lip with the nipple. When the baby latches on, direct the nipple slightly downwards. Try to keep the nipple in the center of the baby's mouth. Do not let it slip up into the cleft.
+          </p>
+
+<p><b>Cleft Palate-</b> with or without Cleft Lip:  Babies with cleft palate usually need special bottles and techniques to feed adequately. It's rarely possible to breastfeed or use a regular bottle because the baby's nose and mouth are not separated and they cannot create suction to get the milk out of the breast or bottle. A baby who is put to the breast may look like they are sucking well, but they are using up energy and getting little or no milk. We encourage mothers who planned to breastfeed to express their milk and feed it to their infants using a special bottle or spoon. While breast milk is considered the most ideal food for all babies, there are added benefits for babies with cleft palate, such as a lower incidence of middle ear infection. </p>
+
+<p>In India, we recommend spoon-feeding rather than bottle-feeding before the cleft is repaired. In some parts of the country, a cup with long nozzle known as “Paaladai” is used effectively. A baby who is not used to spoon-feeding may refuse such feeds during the postoperative period.  This may irritate the baby and cause excessive crying. Feeding can be done using a simple cup and spoon, paaladai, a feeding cup or a milk bottle with a spoon attachment.  Hold your baby lying well back in your arms and gently tip the milk from the spoon to the back of the tongue.  Spoon-feeding is slower but should be used at least until the Cleft Lip or Palate has been repaired.  Our nurses will teach you how to feed your baby correctly.</p>
+
+</div>
+
 <button class="accordion"  style=" color: #575652; font-size: 17px;">
-   <span><span><b>Feeding</b></span></span></button>
+   <span><span><b>How to Feed with Breast Milk?</b></span></span></button>
 <div class="panel" style="background-color:#d6d5d5; color: black;">
-            <p>Babies with clefts have trouble with feeding because the normal anatomy of the oral cavity is disrupted. Normally, a baby pulls the nipple into the mouth and makes a seal with the lips around the nipple. When a baby sucks and swallows, their soft palate rises up and closes off the mouth from the nose. This creates suction so that the breast or bottle nipple is held in the mouth and the milk is drawn out. When a cleft lip is present, it may be difficult for the baby to make a good seal around the nipple. When a cleft palate is present, the mouth cannot be closed off from the nose and little or no suction can be created.</p> </div> 
+            <p>Mothers should choose to express breast milk using a pump or the hand to get milk out of the breast. Breast pumps are available in market. Mothers should pump at least six times in 24 hours, including at least once during the night. After several weeks of this intensive pumping, most mothers can provide enough milk for their babies.</p>
+            <p>
+              Many centres are promoting direct breast feeding to cleft palate children. With special training by nurses, the mothers can feed the baby directly from breast. The breast nipple is put inside the mouth and the milk is expressed with fingers by mother. This encourages the mother to take care of baby and develops mother-child bonding.
+            </p> </div> 
             <button class="accordion"  style=" color: #575652; font-size: 17px;">
-   <span><span><b>How to feed a cleft baby?</b></span></span></button>
+   <span><span><b>Which Bottles to be used in cleft palate children?</b></span></span></button>
 <div class="panel" style="background-color:#d6d5d5; color: black;"> 
-            <p>Infants with cleft lip can usually be fed by breast or regular bottle. Some help from the nurses or infant-feeding specialists may be needed to ensure that the infant can get a tight seal around the nipple.</p>
-<p>Cleft lip: For breastfeeding babies, the soft breast tissue often will fill the opening in the lip and/or gum line well, sealing off the mouth and allowing the baby to create adequate suction. Sometimes it is helpful for the mother to hold a finger across the cleft during feeding. Swallowing noises and a bowel movement after feeding are signs that breast-feeding is going well. If the baby is "noisy" with feeding, making clicking or kissing noises, suction may not be adequate.<br />Mothers who choose to bottle-feed their babies with cleft lip should try using nipples with a wider base, or their infants may need specialty bottles or nipples. When starting a feeding, hold the baby in a slightly upright position. Touch the baby's lower lip with the nipple. When the baby latches on, direct the nipple slightly downwards. Try to keep the nipple in the center of the baby's mouth. Do not let it slip up into the cleft.</p>     <div class="clr"></div>
-            <p></p>
+            <p>There are many types of special bottles available on net and market - the Mead-Johnson Cleft Palate Nurser, the Haberman Feeder and the Pigeon Nipple are popular ones:</p>
+
+            <p>
+              <img src="images/bottles.jpg" border="0" alt="" height="300px" width="600px" style="  border-radius: 8px;" />
+            </p>
+            <p>All of these bottles and nipples should be regularly washed with hot water, dried and then use. They should not be boiled directly in boiling water. They will be damaged with high heat.</p>
+
+
     </div>
+
     <button class="accordion"  style=" color: #575652; font-size: 17px;">
-   <span><span><b>Cleft Palate: with or without Cleft Lip</b></span></span></button>
+   <span><span><b>How Much and how often the baby should be fed?</b></span></span></button>
 <div class="panel" style="background-color:#d6d5d5; color: black;">
-            <p>Babies with cleft palate usually need special bottles and techniques to feed adequately. It's rarely possible to breastfeed or use a regular bottle because the baby's nose and mouth are not separated and they cannot create suction to get the milk out of the breast or bottle. A baby who is put to the breast may look like they are latching on and sucking well, but they are using up energy and getting little or no milk. We encourage mothers who planned to breastfeed to express their milk and feed it to their infants using a special bottle. While breast milk is considered the most ideal food for all babies, there are added benefits for babies with cleft palate, such as a lower incidence of middle ear infection. This situation is often difficult for mothers who were looking forward to breastfeeding their babies. It is common for mothers to feel great sadness at the loss of this experience. It is important to acknowledge this loss and help mothers maintain closeness with their infants.</p>  </div>
+            <p>New born babies take small quantity of milk initially but their requirement increases very quickly. These babies need 100 to 120 ml of milk for each kg of body weight in whole day. 2.5 kg baby requires approximately 300 ml of complete milk in whole day. One should not mix water in the milk which will dilute the nutrient in the milk and child’s nutrition will suffer.</p> 
+            <p>
+              These children should be given frequent and small quantity of milk in one session. For satisfactory growth of the baby adequate feed is essential.  In cleft lip and palate children it is more important as risk of anaesthesia increases in anaemic and underweight children. Hence child’s nutrition needs to be watched every month. Best way to monitor the growth is by checking the weight and haemoglobin of the child every month. 
+            </p> </div>
              <button class="accordion"  style=" color: #575652; font-size: 17px;">
-   <span><span><b>Bottles?</b></span></span></button>
+   <span><span><b>What About Starting Solid Foods?</b></span></span></button>
 <div class="panel" style="background-color:#d6d5d5; color: black;">
-            <p>There are three types of bottles that we recommend for feeding babies with clefts - the Mead-Johnson Cleft Palate Nurser, the Haberman Feeder and the Pigeon Nipple:</p>
-<p><img src="images/bottles.jpg" border="0" alt="" /></p>
-<p>All of these bottles and nipples can be hand washed in hot soapy water, rinsed and allowed to thoroughly air dry. Do not boil the bottles or parts, wash them in the dishwasher or put them in a microwave. They may soften and start to leak.</p> </div> 
+            <p>When the child is 3 months or more supplementary liquid feed in the form of daal, soup, curd etc. should be started.  And little later soft feed like mashed potato, custard, mashed khichadi, halwa, vegetable pulps etc. may be started.  Semisolids may be better accepted in cleft palate children due to less risk of nasal regurgitation.</p><p><img src="images/cap8.jpg" border="0" alt="" height="300px" width="300px" style="  border-radius: 8px;" /></p> </div> 
  <button class="accordion"  style=" color: #575652; font-size: 17px;"> 
-      <span><span><b>How to Express Breast Milk?</b></span></span></button>
+      <span><span><b>Who Treats Children With Cleft Lip and/or Palate?</b></span></span></button>
    <div class="panel" style="background-color:#d6d5d5; color: black;">
-            <p>Mothers who choose to express breast milk (using a pump or the hand to get milk out of the breast) for their babies should get a hospital-grade electric breast pump with a double pumping system. Birth hospitals have pumps for mothers to use in the hospital and can assist families with obtaining pumps for home use. Breast pumps can be rented or purchased. Mothers should pump at least eight times in 24 hours at first, including at least once during the night. After several weeks of this intensive pumping, most mothers can provide enough milk for their babies by pumping about six times a day.</p>    </div>
+            <p>A large number of specialists make a team to take care of our children with cleft. They are:
+              <ul>
+                <li>
+                  • Plastic surgeon or maxillofacial surgeon to evaluate and perform necessary surgeries on the lip and/or palate</li>
+                  <li>
+                  • Anaesthetist  to anaesthetise the baby for surgery. These are specialist anesthetists who are experienced in managing such children.</li><li>
+                  • Paediatrician is an integral part of cleft team and takes care of nutrition, and infection of any kind. This child specialist needs to examine the child regularly before operation for any associated anomalies and fitness for anaesthesia.</li><li>
+                  • An otolaryngologist (an ear, nose, and throat doctor) to evaluate hearing problems and consider treatment options for hearing problems.</li><li>
+                  • An oral  & Maxillofacial or plastic surgeon to reposition segments of the upper jaw when needed.</li><li>
+                  • An orthodontist to straighten and reposition teeth.</li><li>
+                  • Pediatric dentist to perform routine dental care.</li><li>
+                  • Prosthodontist to make artificial teeth and dental appliances to improve the appearance.</li><li>
+                  • Speech Language pathologist to assess speech and feeding problems.</li><li>
+                  • Speech therapist to train the child and parents to improve speech.</li><li>
+                  • Audiologist to check and monitor hearing.</li><li>
+                  • Nurse coordinator to supervise the feeding, nutrition and growth of the child.</li><li>
+                  • Social worker/psychologist to support the family and assess any social problems, teasing, adjustment in schools and colleges.</li><li>
+                  • A geneticist to help parents and adult patients understand the chances of having more children with these conditions.</li>
+
+                
+              </ul><br><p>To know more link to smile train centres www.smiletrainindia.org/treatment-centers.php as well as the website of the Indian society of Cleft Lip and palate and craniofacial anomalies.</p></p><p><img src="images/cap6.jpg" border="0" alt="" height="300px" width="300px" style="  border-radius: 8px;" /></p>    </div>
      
      <button class="accordion"  style=" color: #575652; font-size: 17px;"> 
-      <span><span><b>How Much and how often the baby should feed?</b></span></span></button>
+      <span><span><b>What’s is the sequence of treatment for child born with Cleft Lip and Cleft Palate?</b></span></span></button>
    <div class="panel" style="background-color:#d6d5d5; color: black;">
-            <p>Newborn babies begin taking small amounts, one ounce or less, of milk often, and gradually increase the amount they are able to drink. By 2 weeks of age, a baby needs to drink at least two to two and a half ounces of milk per pound of weight each day. No feeding session should take longer than 30 minutes. If it takes longer, the infant is working too hard and burning calories needed for growth. The measure of success of any feeding plan is adequate weight gain. During the first month of life, a baby will feed eight to twelve times per day, or every two to three hours. A baby this young usually feeds at least twice during the night. At 2 to 4 months old, a baby will feed six to eight times per day, or every three to four hours. </p>
-<p>Weight gain: A baby usually loses weight the first week of life. Most times, the loss is 5 to10 % of body weight. This weight is regained with a baby returning to birth weight by 2 weeks old. The amount of weight gain expected for a baby is about five to seven ounces per week. At 4 to 6 months old, the rate of weight gain slows to about three-and-a-half to four-and-a-half ounces per week. Sometimes infants with cleft lip and palate will have difficulties taking enough breast milk or formula to grow. To help these babies grow, formula powder can be added to breast milk or regular formula for added calories, protein and vitamins. This should only be done under the supervision of the medical team and only with an approved recipe.</p></div>
+            <p>Suggested Protocol for Treating Clefts:<br><ul><li>
+1.  Optional pre-surgical orthodontics (pNAM)– in infancy</li><li>
+2.  Surgical repair of lip and palate</li></ul><br>
+<p>
+The schedule for surgery and treatment by specialists varies from place to place, surgeon to surgeon and patient to patient.  The ultimate result of different schedules remain same. The broad schedule described here is the usual system followed by the majority of the surgeons. 
+</p></p><p><img src="images/cap7.jpg" border="0" alt="" height="300px" width="300px" style="  border-radius: 8px;" /></p> 
+            </div>
+
+
 <button class="accordion"  style=" color: #575652; font-size: 17px;"> 
-      <span><span><b>What About Starting Solid Foods?</b></span></span></button>
+      <span><span><b>Cleft Lip Surgery</b></span></span></button>
     <div class="panel" style="background-color:#d6d5d5; color: black;">
-            <p>Babies with clefts can start solid foods at the same age as other babies, usually between 4 and 6 months of age. Experiment to find the right consistency for solids. It needs to be just right so that the baby can eat without the food coming through the nose. Again, this isn't harmful to the child and sneezing will usually clear the food out of the nose. Most babies learn quickly to get the food down their throats rather than out their noses.</p>   
-    </div></div>
+            <p>Surgery to repair a cleft lip is done within 3 to 6 months of life.  Your baby should have a good body weight corresponding to its age.  If the Plastic Surgeon suggests postponing the lip operation, it may be to improve the general condition of the baby to reduce the possibility of complications during surgery. Sometimes the anaesthetist must be wanting better health for introducing general anaesthesia for the operation.   Cleft lip surgery is not an emergency and you should not worry, if the surgery is judiciously delayed for some reason or the other.  You are most welcome to discuss the timing and its consequences with the treating plastic surgeon.</p>   
+    </div>
+
+<button class="accordion"  style=" color: #575652; font-size: 17px;"> 
+      <span><span><b>Cleft Palate Surgery</b></span></span></button>
+    <div class="panel" style="background-color:#d6d5d5; color: black;">
+            <p>Cleft Palate surgery is normally performed after lip surgery.  However in few centres the cleft palate surgery is done first if the parents seek plastic surgery consultation at a later age because of some or other reason. Cleft palate surgery is scheduled between 6 to 12 months of age.  Timely operation helps minimize abnormal speech habits that a child can develop when learning to speak with cleft palate. Hence cleft palate repair must be done well on time.</p>
+<p><ul><li>
+1.  Speech assessment is done after 3 years</li><li>
+2.  Phase I orthodontics around 7 years of age during mixed dentition.</li><li>
+3.  Surgical bone graft in area of cleft in the alveolus (Aleveolar Bone grafting) at 9-11 years of age.</li><li>
+4.  Speech assessment and therapy at regular intervals and management of Velopharyngeal incompetence at an appropriate time.</li><li>
+5.  Phase II orthodontics – in permanent dentition: full therapy to align dentition.</li><li>
+6.  Orthognathic surgery after completion of growth for correction of occlusion.</li><li>
+7.  Final touch up in adulthood- Correction of scar, any deformity in lip, Nose correction and nasal septal correction if deviated. </li><li>
+8. Ear needs to be checked from early childhood or whenever child has some complains.
+   </li></ul></p>
+    </div>
+
+<button class="accordion"  style=" color: #575652; font-size: 17px;"> 
+      <span><span><b>How to take care of the Child in the Hospital after surgery?</b></span></span></button>
+    <div class="panel" style="background-color:#d6d5d5; color: black;">
+            <p>In some centres baby’s hands and arms are restrained with elbow splints so that the baby cannot touch or rub the operated area. The arm restraint, if used, won’t hurt your baby but most babies make fuss at not being able to move their arms freely.  To make the baby adjust to these splints they are tied around the arm soon after admission into the hospital.</p>
+            <p>
+              Once your baby recovers from anaesthesia, he will sleep off for 1 – 2 hours.  Feeds are started slowly when he/she wakes up.  The baby has to be fed slowly in a sitting position to minimise discomfort.  A little water must be given at the end of each food to clear the baby’s mouth. Usually the baby is fed only on liquid diet for a period of 2 - 3 weeks after surgery.
+            </p>
+            <p>
+              After the surgery you should not carry the baby over the shoulder to make him sleep or the baby may hit the operated area (especially after the lip repair) against your shoulder resulting in wound breakdown, which will lead to an unsatisfactory result.  Also you should guard the baby so that he or she doesn’t rub his or her face against the pillow or cot.  Remember that a little carelessness in guarding the child postoperatively can lead to injury and a permanent bad scar over the lip.  You should keep all hard and semi hard objects away from the baby’s mouth including straws, spoon, pacifiers and nipples.  While feeding with a spoon, it shouldn’t go in the child’s mouth.  The child should be fed with the side of the spoon.
+            </p>
+    </div>
+
+
+<button class="accordion"  style=" color: #575652; font-size: 17px;"> 
+      <span><span><b>How to take care of the baby at home after discharge from the hospital?</b></span></span></button>
+    <div class="panel" style="background-color:#d6d5d5; color: black;">
+            <p>Feeding at home is same as instructed during the hospital stay.  The child has to be given only liquid diet for 3 weeks until healing is complete.  The baby should not have potato chips, cookies or other hard foods.</p>
+            <p>
+              You should bring the baby for follow-up whenever called which is usually 2-3 weeks after the surgery.  You can seek the surgeon’s opinion regarding starting of semisolid or solid food.
+            </p>
+            <p>
+             Some children get earaches after cleft palate surgery due to swelling of the throat tissues.  If this happens, you may need to consult the an ENT specialist. </p>
+    </div>
+
+<button class="accordion"  style=" color: #575652; font-size: 17px;"> 
+      <span><span><b>Will my baby be able to speak properly?</b></span></span></button>
+    <div class="panel" style="background-color:#d6d5d5; color: black;">
+            <p>Some children with Cleft Palate develop speech difficulties.  But timely surgery and early attention by a Speech Therapist will usually overcome these problems, so that they will be able to speak normally by the time they go to school.  Occasionally a child may require further surgery to improve his or her speech.  Parental attention is very important in this respect.</p>
+            <p>
+             <b> Your child’s speech development</b><br>
+Speech problems occur because of incorrect speech pattern learned before the palate is operated or the repaired soft palate is not able to close off the nose, so the air and sound escapes into the nose during speech.  In some children there are certain inbuilt defects in speech mechanism, which are difficult to explain.
+  
+            </p>
+            <p>
+             <b>Role of speech Therapist (Pathologist)</b><br>
+  Speech Therapist is a very important member of the team.  Speech therapists are trained to prevent as well as to correct speech problems. They can teach children with clefts to develop clear speech and show parents how to do speech therapy with their children at home.  Parents play a great role in speech learning of these babies.
+ </p><p><img src="images/cap9.jpg" border="0" alt="" height="300px" width="300px" style="  border-radius: 8px;" /></p>
+    </div>
+
+    <button class="accordion"  style=" color: #575652; font-size: 17px;"> 
+      <span><span><b>Why my child is getting frequent running nose?</b></span></span></button>
+    <div class="panel" style="background-color:#d6d5d5; color: black;">
+            <p> Children with cleft palate may have frequent running nose.  This is because the food material enters inside the nasal cavity during feed.  This irritates the nasal cavity and causes repeated infection.  Whenever child suffers from respiratory infection it is better to consult a paediatrician.  But one need not worry.  This problem is not expected in children with isolated cleft lip. This problem is resolved after repair of the cleft palate.</p>
+            
+    </div>
+
+ <button class="accordion"  style=" color: #575652; font-size: 17px;"> 
+      <span><span><b>Will the child’s hearing be affected?</b></span></span></button>
+    <div class="panel" style="background-color:#d6d5d5; color: black;">
+            <p>Children with cleft palate have more ear problems than other children. The hearing has to be checked regularly.  The ENT specialist should perform regular ear check-up.  In some centres ear is checked before first operation.  If required a small tube (Grommet) is inserted to avoid harm to the eardrum in future. The hearing loss may cause language learning problem because children must hear clearly in order to learn words and sentences.  Poor hearing may lead to incorrect speech because the child can’t copy the sounds accurately.</p>
+            
+    </div>
+  </div>
   
     
             <script>
@@ -186,4 +390,10 @@ for (i = 0; i < acc.length; i++) {
   });
 }
 </script>
- @endsection
+<br>
+ @include('layout.footer')
+  </div>
+</div>
+
+</body>
+</html>
