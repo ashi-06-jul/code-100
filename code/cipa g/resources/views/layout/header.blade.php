@@ -1,7 +1,7 @@
  <header>
    <link rel="icon" href="images/cipa.png" type="image/jpg" sizes="16x16">
       <div class="wrapper">
-        <h1><a href="/i" id="logo">Hope Center</a></h1>
+        <h1><a href="/i" id="logo">CIPA</a></h1>
         <nav>
           <ul id="top_nav">
             <li><a href="/i"><img src="images/top_icon1.gif" alt=""></a></li>

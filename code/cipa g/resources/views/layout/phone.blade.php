@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
    <link rel="icon" href="images/cipa.png" type="image/jpg" sizes="16x16">
-<title>Hope Center | Contact</title>
+<title>CIPA | Contact</title>
 <meta charset="utf-8">
 <link rel="stylesheet" href="css/reset.css" type="text/css" media="all">
 <link rel="stylesheet" href="css/layout.css" type="text/css" media="all">
@@ -29,7 +29,7 @@
     <!-- content -->
     <article id="content">
       @yield('contact')
-    </article>
+    </article><br>
     <!-- / content -->
     <!-- footer -->
 @include('layout.footer')

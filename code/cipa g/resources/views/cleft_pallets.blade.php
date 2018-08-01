@@ -66,7 +66,7 @@
 <div class="body1">
   <div class="main">
  @include('layout.header')
-
+ 
    <div>
     <header style="background-color:#e0a1a1; height: 250px; border-radius: 5px">
       <article id="content">
@@ -74,7 +74,7 @@
     <strong>W</strong><span>hat is Cleft Lip and Pallate ?</span> 
       </h2>
       <h2 style="text-align: center;">
-        <strong>C</strong><span>hallenging deformity which can be cure by due care</span>
+        <strong>C</strong><span>hallenging deformity which can be cure by due care.</span>
       </h2>
       <br>
       <center><img src="images/blog3.jpg" style="height: 370px;width: 1000px; border-radius: 15px;"></center>
@@ -87,7 +87,9 @@
    <br>
    <br>
    <br>
-
+<br>
+<br>
+<br>
 <br>
    <br>
    <br>
@@ -390,7 +392,11 @@ for (i = 0; i < acc.length; i++) {
   });
 }
 </script>
-<br>
+ </section>
+          </div>
+        </div>
+      </div>
+  </article><br>
  @include('layout.footer')
   </div>
 </div>

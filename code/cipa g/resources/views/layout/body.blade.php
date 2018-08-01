@@ -44,43 +44,39 @@
      <marquee ><font size ="10px" color="orange ">Demonstration of CIPA website on 1:06:2018 </marquee>
            <div class="slider">
         <ul class="items">
-          <li> <img src="images/indexImg.jpg" alt="">
-            <div class="banner">
-              <div class="wrapper"><span>“Our<em>Mission</em>is to<em>Help</em></span></div>
-              <div class="wrapper"><strong>Those Who<em>Need</em>It”</strong></div>
-            </div>
-          </li>
-          <li> <img src="images/51r56a99-health.jpg" alt="">
-            <div class="banner">
-              <div class="wrapper"><span>“MAKE all the CHILDREN</span></div>
-              <div class="wrapper"><strong>of the World HAPPY”</strong></div>
-            </div>
-          </li>
-          <li> <img src="images/img3.jpg" alt="">
-            <div class="banner">
-              <div class="wrapper"><span>“TOGETHER we can CHANGE</span></div>
-              <div class="wrapper"><strong>Many Young LIVES”</strong></div>
-            </div>
-          </li>
+          
+          <li> <img src="images/23.png" alt=""></li>
+          <li> <img src="images/24.png" alt=""></li>
+          <li> <img src="images/25.png" alt=""></li>
+          <li> <img src="images/26.png" alt=""></li>
+          <li> <img src="images/27.png" alt=""></li>
+          <li> <img src="images/28.png" alt=""></li>
+          <li> <img src="images/29.png" alt=""></li>
+          <li> <img src="images/30.png" alt=""></li>
+          <li> <img src="images/31.png" alt=""></li>
+          <li> <img src="images/32.png" alt=""></li>
+          <li> <img src="images/33.png" alt=""></li>
+          <li> <img src="images/34.png" alt=""></li>
+          <li> <img src="images/35.png" alt=""></li>
+          <li> <img src="images/36.png" alt=""></li>
+          
         </ul>
         <div class="pagination">
-          <div id="banner1"><a href="#">Make<span>Donations</span></a></div>
+          
           <div id="banner2"><a href="/story">Share<span>Your Story</span></a></div>
           <div id="banner3"><a href="/register">Become<span>A Member</span></a></div>
+          <div id="banner1"><a href="#">Make<span>Donations</span></a></div>
         </div>
       </div>
     <!-- / header -->
     <!-- content -->
     <article id="content">
          @yield('body')
-    </article>
+    </article><br>
     <!-- / content -->
     <!-- footer -->
  @include('layout.footer')
-    <!-- / footer -->
-  </div>
-</div>
-<script type="text/javascript">Cufon.now();</script>
+ <script type="text/javascript">Cufon.now();</script>
 <script type="text/javascript">
 $(window).load(function () {
     $('.slider')._TMS({
@@ -125,5 +121,10 @@ $(window).load(function () {
     })
 })
 </script>
+    <!-- / footer -->
+  </div>
+</div>
+
+
 </body>
 </html>

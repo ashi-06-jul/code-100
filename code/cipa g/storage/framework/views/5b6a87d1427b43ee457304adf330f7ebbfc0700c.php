@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <link rel="icon" href="images/cipa.png" type="image/jpg" sizes="16x16">
-<title>CIPA-Ortho </title>
+<title>Photo Gallery </title>
 <meta charset="utf-8">
 <link rel="stylesheet" href="css/reset.css" type="text/css" media="all">
 <link rel="stylesheet" href="css/layout.css" type="text/css" media="all">
@@ -46,6 +46,35 @@ div.gallery img {
 div.desc {
     padding: 15px;
     text-align: center;
+
+    * {
+    box-sizing: border-box;
+}
+
+.responsive {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+}
+
+@media  only screen and (max-width: 700px) {
+    .responsive {
+        width: 49.99999%;
+        margin: 6px 0;
+    }
+}
+
+@media  only screen and (max-width: 500px) {
+    .responsive {
+        width: 100%;
+    }
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
 }
 </style>
 </head>
@@ -59,157 +88,28 @@ div.desc {
         <div class="box1">
           <div class="wrapper">
             <section class="col">
-              <h2 class="color3"><strong>G</strong>ALLERY:<span> </span></h2>
+              <h2 class="color3"><strong>P</strong>HOTO GALLERY:<span> </span></h2>
              
                 
               
 
     
-                </h5>
-              </p>
-              <div>
+               
+             
+            
                 
               
-                <div class="gallery">
-    <a target="_blank">
-    <img src="images/1.jpg" alt="Trolltunga Norway" width="300" height="225">
-  </a>
-  
-</div>
 
-<div class="gallery">
-  <a target="_blank">
-    <img src="images/2.jpg" alt="Forest" width="300" height="225">
-  </a>
-  
-</div>
 
-<div class="gallery">
-  <a target="_blank">
-    <img src="images/3.jpg" alt="Northern Lights" width="300" height="225">
-  </a>
-  
-</div>
-
-<div class="gallery">
-  <a target="_blank">
-    <img src="images/4.jpg" alt="Mountains" width="300" height="225">
-  </a>
-  
-</div>
-
-</div>
-
-  <div>           
-              
-                <h2>Unilateral <span>Cleft Lip and Palate</span></h2>
-             
              <div class="gallery">
-    <a target="_blank">
-    <img src="images/5.jpg" alt="Trolltunga Norway" width="300" height="225">
-  </a>
-  
-</div>
-
-<div class="gallery">
-  <a target="_blank">
-    <img src="images/6.jpg" alt="Forest" width="300" height="225">
-  </a>
-  
-</div>
-
-<div class="gallery">
-  <a target="_blank">
-    <img src="images/7.jpg" alt="Northern Lights" width="300" height="225">
-  </a>
-  
-</div>
-
-<div class="gallery">
-  <a target="_blank">
-    <img src="images/8.jpg" alt="Mountains" width="300" height="225">
-  </a>
-  
-</div>
-
-  </div>            
-              <p>
-                <h2> <span></span></h2>
-             <div class="gallery">
-    <a target="_blank">
-    <img src="images/9.jpg" alt="Trolltunga Norway" width="300" height="225">
-  </a>
-  
-</div>
-
-<div class="gallery">
-  <a target="_blank">
-    <img src="images/10.jpg" alt="Forest" width="300" height="225">
-  </a>
-  
-</div>
-              </p>
-              <p>
-                <h2><span></span></h2>
-                <h5><br></h5>
-             <div class="gallery">
-    <a target="_blank">
-    <img src="images/11.jpg" alt="Trolltunga Norway" width="300" height="225">
-  </a>
-  
-</div>
-
-<div class="gallery">
-  <a target="_blank">
-    <img src="images/12.jpg" alt="Forest" width="300" height="225">
-  </a>
-  
-</div>
-              </p>
-              
-              <p>
-                <h2> <span></span></h2>
-             
-             <h5> </h5>
-             <div class="gallery">
-    <a target="_blank">
-    <img src="images/13.jpg" alt="Trolltunga Norway" width="300" height="225">
-  </a>
-  
-</div>
-
-<div class="gallery">
-  <a target="_blank">
-    <img src="images/14.jpg" alt="Forest" width="300" height="225">
+  <a target="_blank" href="images/k17.jpg">
+    <img src="images/k17.jpg" alt="Forest" width="300" height="225">
   </a>
   
 </div>
 <div class="gallery">
-    <a target="_blank">
-    <img src="images/15.jpg" alt="Trolltunga Norway" width="300" height="225">
-  </a>
-  
-</div>
-
-<div class="gallery">
-  <a target="_blank">
-    <img src="images/17.jpg" alt="Forest" width="300" height="225">
-  </a>
-  
-</div>
-              </p>
-             <p>
-              <h2><span> </span></h2>
-             <h5> <br></h5>
-             <div class="gallery">
-  <a target="_blank">
-    <img src="images/18.jpg" alt="Forest" width="300" height="225">
-  </a>
-  
-</div>
-<div class="gallery">
-  <a target="_blank">
-    <img src="images/19.jpg" alt="Forest" width="300" height="225">
+  <a target="_blank" href="images/k18.jpg">
+    <img src="images/k18.jpg" alt="Forest" width="300" height="225">
   </a>
   
 </div>
@@ -217,31 +117,75 @@ div.desc {
               <p>
                 <h2></h2>
              <div class="gallery">
-  <a target="_blank">
-    <img src="images/20.jpg" alt="Forest" width="300" height="225">
+  <a target="_blank" href="images/k19.jpg">
+    <img src="images/k19.jpg" alt="Forest" width="300" height="225">
   </a>
   
 </div>
-<div class="gallery">
-  <a target="_blank">
-    <img src="images/21.jpg" alt="Forest" width="300" height="225">
+             <div class="gallery">
+  <a target="_blank" href="images/k20.jpg">
+    <img src="images/k20.jpg" alt="Forest" width="300" height="225">
   </a>
   
 </div>
-<div class="gallery">
-  <a target="_blank">
-    <img src="images/erge.gif" alt="Forest" width="300" height="225">
+ <div class="gallery">
+  <a target="_blank" href="images/k21.jpg">
+    <img src="images/k21.jpg" alt="Forest" width="300" height="225">
   </a>
   
 </div>
-<div class="gallery">
-  <a target="_blank">
-    <img src="images/ab.jpg" alt="Forest" width="300" height="225">
+ <div class="gallery">
+  <a target="_blank" href="images/k22.jpg">
+    <img src="images/k22.jpg" alt="Forest" width="300" height="225">
   </a>
- 
+  
 </div>
-              </p>
-              </div>
+ <div class="gallery">
+  <a target="_blank" href="images/k23.jpg">
+    <img src="images/k23.jpg" alt="Forest" width="300" height="225">
+  </a>
+  
+</div>
+ <div class="gallery">
+  <a target="_blank" href="images/k24.jpg">
+    <img src="images/k24.jpg" alt="Forest" width="300" height="225">
+  </a>
+  
+</div>
+ <div class="gallery">
+  <a target="_blank" href="images/k25.jpg">
+    <img src="images/k25.jpg" alt="Forest" width="300" height="225">
+  </a>
+  
+</div>
+ <div class="gallery">
+  <a target="_blank" href="images/k26.jpg">
+    <img src="images/k26.jpg" alt="Forest" width="300" height="225">
+  </a>
+  
+</div>
+ <div class="gallery">
+  <a target="_blank" href="images/k27.jpg">
+    <img src="images/k27.jpg" alt="Forest" width="300" height="225">
+  </a>
+  
+</div> <div class="gallery">
+  <a target="_blank" href="images/k28.jpg">
+    <img src="images/k28.jpg" alt="Forest" width="300" height="225">
+  </a>
+  
+</div> <div class="gallery">
+  <a target="_blank" href="images/k29.jpg">
+    <img src="images/k29.jpg" alt="Forest" width="300" height="225">
+  </a>
+  
+</div> <div class="gallery">
+  <a target="_blank" href="images/k30.jpg">
+    <img src="images/k30.jpg" alt="Forest" width="300" height="225">
+  </a>
+  
+</div>
+
             </section>
           </div>
         </div>

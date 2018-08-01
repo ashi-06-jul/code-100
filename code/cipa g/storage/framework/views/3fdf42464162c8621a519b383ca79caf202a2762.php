@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <link rel="icon" href="images/cipa.png" type="image/jpg" sizes="16x16">
 <title>Management</title>
 <meta charset="utf-8">
 <link rel="stylesheet" href="css/reset.css" type="text/css" media="all">
@@ -29,7 +30,7 @@
     <!-- content -->
     <article id="content" class="tabs">
       <?php echo $__env->yieldContent('manag'); ?>
-    </article>
+    </article><br>
     <!-- / content -->
     <!-- footer -->
     <?php echo $__env->make('layout.footer', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>

@@ -9,22 +9,21 @@
       <div class="wrapper">
         <nav>
           <ul id="footer_menu">
-            <li><a href="/i">Home</a></li>
-            <li><a href="/mission">Our Mission</a></li>
-            <li><a href="/news">News &amp; Press</a></li>
+            <li><a href="/i"> Home</a></li>
+            <li><a href="/accolades">Accolades</a></li>
             <li><a href="/faq">FAQ</a></li>
 
 
            
-            <li class="end"><a href="/contact">Contact</a></li>
-               <li><a href="\admin">admin</a></li>
+            <li><a href="/contact">Contact</a></li>
+               
             
           </ul>
         </nav>
-        <div class="tel"><span>+91 </span>9804184535
+        <div class="tel"><span>+91 </span>9555901255
        </div>
 
                  </div>
       <div id="footer_text">Copyright &copy; <a href="#">CIPA India</a> All Rights Reserved<br>
-        Design by <a target="_blank" href="http://www.templatemonster.com/">KIET MCA</a></div>
+        Design by <a target="_blank" href="https://www.kiet.edu/#/Department/Home">KIET MCA</a></div>
     </footer>

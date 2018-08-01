@@ -24,29 +24,8 @@
 <div class="body1">
   <div class="main">
     <!-- header -->
-    <header>
-      <div class="wrapper">
-        <h1><a href="/i" id="logo">Hope Center</a></h1>
-        <nav>
-          <ul id="top_nav">
-            <li><a href="/i"><img src="images/top_icon1.gif" alt=""></a></li>
-            <li><a href="#"><img src="images/top_icon2.gif" alt=""></a></li>
-            <li class="end"><a href="contact.html"><img src="images/top_icon3.gif" alt=""></a></li>
-          </ul>
-        </nav>
-        <nav>
-          <ul id="menu">
-            <li><a href="i/">Home</a></li>
-            <li><a href="/cleft&pallets">Cleft Lip &amp; Pallete</a></li>
-            <li><a href="/About Us1">About Us</a></li>
-            <li><a href="/ortho">Orthodontics</a></li>
-            <li><a href="/Media">Media</a></li>
-            <li><a href="/contact">Testimonials</a></li>
-          </ul>
-        </nav>
-      </div>
-    </header>
-    <!-- / header -->
+    <?php echo $__env->make('layout.header', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
+      <!-- / header -->
     <!-- content -->
     <article id="content" class="tabs">
       <div class="wrapper">
@@ -65,33 +44,11 @@
             </section>
           </div>
         </div>
-      </div>
+      </div><br>
       
     <!-- / content -->
     <!-- footer -->
-    <footer>
-      <div class="wrapper"> <a href="index.html" id="footer_logo"><span>Hope</span>Center</a>
-        <ul id="icons">
-          <li><a href="#" class="normaltip"><img src="images/icon1.gif" alt=""></a></li>
-          <li><a href="#" class="normaltip"><img src="images/icon2.gif" alt=""></a></li>
-          <li><a href="#" class="normaltip"><img src="images/icon3.gif" alt=""></a></li>
-        </ul>
-      </div>
-      <div class="wrapper">
-        <nav>
-          <ul id="footer_menu">
-            <li><a href="/i">Home</a></li>
-            <li><a href="/mission">Our Mission</a></li>
-            <li class="active"><a href="/news">News &amp; Press</a></li>
-            <li><a href="/help">How to Help</a></li>
-            <li class="end"><a href="/contact">Contact</a></li>
-          </ul>
-        </nav>
-        <div class="tel"><span>+1 800</span>123 45 67</div>
-      </div>
-      <div id="footer_text">Copyright &copy; <a href="#">Domain Name</a> All Rights Reserved<br>
-        Design by <a target="_blank" href="http://www.templatemonster.com/">TemplateMonster.com</a></div>
-    </footer>
+     <?php echo $__env->make('layout.footer', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
     <!-- / footer -->
   </div>
 </div>

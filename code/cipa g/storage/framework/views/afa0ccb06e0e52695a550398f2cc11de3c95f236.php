@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <link rel="icon" href="images/cipa.png" type="image/jpg" sizes="16x16">
-<title>CIPA | Misson </title>
+<title>CIPA | Cleft lip & palate </title>
 <meta charset="utf-8">
 <link rel="stylesheet" href="css/reset.css" type="text/css" media="all">
 <link rel="stylesheet" href="css/layout.css" type="text/css" media="all">
@@ -72,57 +72,13 @@
     <article id="content">
    <?php echo $__env->yieldContent('cleft'); ?>   
    
-    </article>
+    </article><br>
     <!-- / content -->
     <!-- footer -->
    <?php echo $__env->make('layout.footer', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
     <!-- / footer -->
   </div>
 </div>
-<script type="text/javascript">Cufon.now();</script>
-<script type="text/javascript">
-$(window).load(function () {
-    $('.slider')._TMS({
-        preset: 'zabor',
-        easing: 'easeOutQuad',
-        duration: 800,
-        pagination: true,
-        banners: true,
-        waitBannerAnimation: false,
-        slideshow: 6000,
-        bannerShow: function (banner) {
-            banner.css({
-                right: '-700px'
-            }).stop().animate({
-                right: '0'
-            }, 600, 'easeOutExpo')
-        },
-        bannerHide: function (banner) {
-            banner.stop().animate({
-                right: '-700'
-            }, 600, 'easeOutExpo')
-        }
-    })
-    $('.pagination li').hover(function () {
-        if (!$(this).hasClass('current')) {
-            $(this).find('a').stop().animate({
-                backgroundPosition: '0 0'
-            }, 600, 'easeOutExpo', function () {
-                $(this).parent().css({
-                    backgroundPosition: '-20px 0'
-                })
-            });
-        }
-    }, function () {
-        if (!$(this).hasClass('current')) {
-            $(this).css({
-                backgroundPosition: '0 0'
-            }).find('a').stop().animate({
-                backgroundPosition: '-250px 0'
-            }, 600, 'easeOutExpo');
-        }
-    })
-})
-</script>
+
 </body>
 </html>

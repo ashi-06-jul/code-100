@@ -169,7 +169,7 @@
       'file' => 
       array (
         'driver' => 'file',
-        'path' => 'C:\\xampp\\htdocs\\cipa g-20180630T084613Z-001\\cipa g\\storage\\framework/cache/data',
+        'path' => 'C:\\xampp\\htdocs\\cipa g\\storage\\framework/cache/data',
       ),
       'memcached' => 
       array (
@@ -274,12 +274,12 @@
       'local' => 
       array (
         'driver' => 'local',
-        'root' => 'C:\\xampp\\htdocs\\cipa g-20180630T084613Z-001\\cipa g\\storage\\app',
+        'root' => 'C:\\xampp\\htdocs\\cipa g\\storage\\app',
       ),
       'public' => 
       array (
         'driver' => 'local',
-        'root' => 'C:\\xampp\\htdocs\\cipa g-20180630T084613Z-001\\cipa g\\storage\\app/public',
+        'root' => 'C:\\xampp\\htdocs\\cipa g\\storage\\app/public',
         'url' => 'http://localhost:8000/storage',
         'visibility' => 'public',
       ),
@@ -304,15 +304,15 @@
       'name' => 'CIPA',
     ),
     'encryption' => 'ssl',
-    'username' => 'guptatarang888@gmail.com',
-    'password' => 'merepapa',
+    'username' => 'cipamanager@gmail.com',
+    'password' => 'cipa123manager',
     'sendmail' => '/usr/sbin/sendmail -bs',
     'markdown' => 
     array (
       'theme' => 'default',
       'paths' => 
       array (
-        0 => 'C:\\xampp\\htdocs\\cipa g-20180630T084613Z-001\\cipa g\\resources\\views/vendor/mail',
+        0 => 'C:\\xampp\\htdocs\\cipa g\\resources\\views/vendor/mail',
       ),
     ),
   ),
@@ -392,7 +392,7 @@
     'lifetime' => 120,
     'expire_on_close' => false,
     'encrypt' => false,
-    'files' => 'C:\\xampp\\htdocs\\cipa g-20180630T084613Z-001\\cipa g\\storage\\framework/sessions',
+    'files' => 'C:\\xampp\\htdocs\\cipa g\\storage\\framework/sessions',
     'connection' => NULL,
     'table' => 'sessions',
     'store' => NULL,
@@ -411,9 +411,9 @@
   array (
     'paths' => 
     array (
-      0 => 'C:\\xampp\\htdocs\\cipa g-20180630T084613Z-001\\cipa g\\resources\\views',
+      0 => 'C:\\xampp\\htdocs\\cipa g\\resources\\views',
     ),
-    'compiled' => 'C:\\xampp\\htdocs\\cipa g-20180630T084613Z-001\\cipa g\\storage\\framework\\views',
+    'compiled' => 'C:\\xampp\\htdocs\\cipa g\\storage\\framework\\views',
   ),
   'tinker' => 
   array (
