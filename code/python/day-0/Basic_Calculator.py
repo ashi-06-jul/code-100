@@ -9,3 +9,11 @@ switcher = {
 4 : first_digit/second_digit
 }
 print switcher.get(choice,"invalid choice")
+switch EXPR:
+    case EXPR:
+        SUITE
+    case EXPR:
+        SUITE
+    ...
+    else:
+        SUITE
