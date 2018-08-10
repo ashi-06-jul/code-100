@@ -65,7 +65,7 @@ float: left}
 	<table class="table table-bordered"  >
 		<tr><td class="control-label col-sm-2">Name</td><td ><input type="text" name="name" class="form-control" required="required" placeholder="Enter your name"></td>
 		</tr>
-		<tr><br>
+		<tr>
 		<td class="control-label col-sm-2">Age</td><td><input type="number" name="age" class="form-control" required="required" placeholder="enter your age" ></td></tr>
 		<tr><td class="control-label col-sm-2">Sex</td><td>Male<input type="radio" name="psex" value="M">&nbsp;&nbsp;&nbsp;Female<input type="radio" name="psex" value="F" ></td>
 		<tr><td>Work Type</td><td><select name="type" class="form-control">
