@@ -20,7 +20,7 @@
             
           </ul>
         </nav>
-        <div class="tel"><span>+91 </span>9555901255
+        <div class="tel"><span>+91 </span>1126026666
        </div>
 
                  </div>
