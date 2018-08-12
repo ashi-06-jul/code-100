@@ -102,7 +102,7 @@ div.desc {
                 <h2 class="color2"><strong>A</strong>rchy <strong>M</strong>athur</h2>
                 <div class="pad_bot1">
                     <div class="gallery">
-                  <figure><img src="images/avatar1.png" alt="Trolltunga Norway" width="300" height="225"></figure>
+                  <figure><img src="images/archy.jpg" alt="Trolltunga Norway" width="300" height="225"></figure>
                 </div>
                 Student #MCA at #KIET<br>
                Contact:archy2212@gmail.com  </section>
