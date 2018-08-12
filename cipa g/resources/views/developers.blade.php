@@ -93,7 +93,7 @@ div.desc {
                 <h2><strong>A</strong>shi <strong>A</strong>nand</h2>
                 <div class="pad_bot1">
                    <div class="gallery">
-                  <figure><img src="images/avatar1.png" alt="Trolltunga Norway" width="300" height="225"></figure>
+                  <figure><img src="images/ashii.png" alt="Trolltunga Norway" width="300" height="225"></figure>
                 </div>
                 </div>
                Student #MCA at #KIET<br>
