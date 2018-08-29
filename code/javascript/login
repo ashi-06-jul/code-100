@@ -1,12 +1,12 @@
 let loggedIn = false;
 
-let username = "chetanhere";
+let username = "ashi";
 let password = "password";
 
-// real username = chetanhere;
+// real username = ashi;
 // real password = password;
 
-if(username == "chetanhere" && password == "password"){
+if(username == "ashi" && password == "password"){
     loggedIn = true;
 }
 else{
