@@ -1,0 +1,16 @@
+let loggedIn = false;
+
+let username = "ashi";
+let password = "password";
+
+// real username = ashi;
+// real password = password;
+
+if(username == "ashi" && password == "password"){
+    loggedIn = true;
+}
+else{
+    loggedIn = false;
+}
+
+console.log(loggedIn);
