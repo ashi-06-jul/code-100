@@ -12,6 +12,7 @@ y = dataset.iloc[:, 1].values
 
 # Splitting the dataset into the Training set and Test set
 from sklearn.cross_validation import train_test_split
+
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size = 1/3, random_state = 0)
 
 # Feature Scaling
@@ -38,6 +39,14 @@ y_pred = regressor.predict(X_test)
 
 plt.scatter(X_train, y_train, color='red')
 plt.plot(X_train, regressor.predict(X_train), color='blue')
+plt.title('Salary vs Experience in Years')
+plt.xlabel('Years of Experience')
+plt.ylabel('Salary in $')
+plt.show()
+
+# now let's test our model on Test Data
+plt.scatter(X_test, y_test, color='red')
+plt.plot(X_test, regressor.predict(X_test), color='blue')
 plt.title('Salary vs Experience in Years')
 plt.xlabel('Years of Experience')
 plt.ylabel('Salary in $')
