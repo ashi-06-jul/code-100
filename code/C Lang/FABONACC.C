@@ -15,7 +15,6 @@ b=c;
 printf("%d\n",c);
 }
 getch();
- 
 }
 
 
