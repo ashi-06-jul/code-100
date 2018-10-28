@@ -11,7 +11,7 @@
          $file = fopen( $filename, "r" );
          
          if( $file == false ) {
-            echo ( "Error in opening file" );
+            echo ( "Error in opening file!" );
             exit();
          }
          
