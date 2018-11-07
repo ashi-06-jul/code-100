@@ -30,5 +30,6 @@ maxlen=len;
 printf("%d",maxlen);
 }
 }
+  
 getch();
 }
