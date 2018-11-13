@@ -3,7 +3,8 @@ public class SmallestArray
 public static int getSmallest(int[] a, int total)
 {  
 int temp;  
-for (int i = 0; i < total; i++)   
+for (int i = 0; i < total; i++)  
+        
         {  
             for (int j = i + 1; j < total; j++)   
             {  
