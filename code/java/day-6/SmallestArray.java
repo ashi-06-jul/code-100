@@ -13,7 +13,8 @@ for (int i = 0; i < total; i++)
                     a[i] = a[j];  
                     a[j] = temp;  
                 }  
-            }  
+
+            }
         
         }  
        return a[0];  
