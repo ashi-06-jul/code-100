@@ -21,6 +21,7 @@ a[j]=a[j-1];
 a[j-1]=temp;
 j--;
 }
+ 
 }
 for(i=0;i<=n-1;i++)
 printf("%d\t",a[i]);
