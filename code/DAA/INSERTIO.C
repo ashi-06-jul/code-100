@@ -7,8 +7,7 @@ clrscr();
  printf("Enter the value of n");
 scanf("%d",&n);
 printf("Enter the elements of array");
-       
-for(i=0;i < n;i++)
+       for(i=0;i < n;i++)
 {
 scanf("%d",&a[i]);
 }
