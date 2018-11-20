@@ -6,7 +6,8 @@ int a[100],i,n,j,temp;
 clrscr();
  printf("Enter the value of n");
 scanf("%d",&n);
-printf("Enter the elements of array");
+printf("Enter the elements of arra
+       y");
 for(i=0;i < n;i++)
 {
 scanf("%d",&a[i]);
