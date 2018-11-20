@@ -7,6 +7,7 @@ clrscr();
  printf("Enter the value of n");
 scanf("%d",&n);
 printf("Enter the elements of arra
+       
        y");
 for(i=0;i < n;i++)
 {
