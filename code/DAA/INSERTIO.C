@@ -9,6 +9,7 @@ scanf("%d",&n);
 printf("Enter the elements of arra
        
        y");
+       
 for(i=0;i < n;i++)
 {
 scanf("%d",&a[i]);
