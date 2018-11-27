@@ -9,6 +9,7 @@ if(prev!=0){
 len=1;maxlen=1;}
 scanf("%d",&curr);
 while(curr!=0)
+  
 {
 if(prev<curr)
 {
