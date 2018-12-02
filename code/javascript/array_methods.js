@@ -5,7 +5,6 @@ console.log(family);
 console.log(family.unshift("Chetan Vashistth"));
 console.log(family);
 
-
 // above is to change things at start of array
 
 console.log(family.pop());
