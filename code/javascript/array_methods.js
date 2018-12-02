@@ -8,7 +8,6 @@ console.log(family);
 
 console.log(family.pop());
 console.log(family);
-
 console.log(family.push("Bhawana"));
 console.log(family);
 
