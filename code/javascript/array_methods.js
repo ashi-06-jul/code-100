@@ -10,7 +10,6 @@ console.log(family.pop());
 console.log(family);
 console.log(family.push("Bhawana"));
 console.log(family);
-
 //above is to change things at end of array
 
 
