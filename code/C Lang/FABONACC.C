@@ -14,4 +14,3 @@ printf("%d\n",c);
 }
 getch();
 }
-
