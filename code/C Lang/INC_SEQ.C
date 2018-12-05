@@ -15,8 +15,7 @@ if(prev<curr)
 len=len+1;
 }
 else
-  
-{
+  {
 if(maxlen<len)
 {
 maxlen=len;
