@@ -6,7 +6,7 @@
          echo "Salary of qadir is ".  $salaries['qadir']. "<br />";
          echo "Salary of zara is ".  $salaries['zara']. "<br />";
          
-         /* Second method to create array. */
+        /* Second method to create array. */
          $salaries['mohammad'] = "high";
          $salaries['qadir'] = "medium";
          $salaries['zara'] = "low";
