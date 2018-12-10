@@ -6,7 +6,7 @@ public static int linearSearch(int[] arr, int key)
             if(arr[i] == key){    
                 return i;    
             }    
-        }    
+       }    
         return -1;    
    }    
     public static void main(String a[])
