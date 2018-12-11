@@ -5,7 +5,7 @@
    </head>
    
    <body>
-      
+     
       <?php
          $filename = "tmp.txt";
          $file = fopen( $filename, "r" );
