@@ -4,7 +4,7 @@
    
    if( $file == false ) {
       echo ( "Error in opening new file" );
-      exit();
+      exit();    
    }
    fwrite( $file, "This is  a simple test\n" );
    fclose( $file );
