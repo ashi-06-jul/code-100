@@ -17,7 +17,7 @@ public class CastingVar{
         System.out.println("Percentage marks are: "+ per);
         // 83
 
-        System.out.println("Percentage marks are to decimal: "+ percentage);
+       System.out.println("Percentage marks are to decimal: "+ percentage);
         //83.000000
         //83.333334
 
