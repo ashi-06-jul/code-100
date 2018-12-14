@@ -23,9 +23,6 @@ public class CastingVar{
 
         System.out.println("Percentage marks are to decimal: "+ mPer);
         //83.3334
-
-
-    
-    }
+   }
     
 }
