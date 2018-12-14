@@ -1,5 +1,6 @@
 public class CastingVar{
-    public static void main(String[] args) {
+    public static void main(String[] args) 
+    {
         
         int MO = 75;
         int MM = 90;
